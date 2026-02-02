@@ -1,0 +1,83 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230830092924
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 7808
+PSVersion: 5.1.17763.4720
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4720
+BuildVersion: 10.0.17763.4720
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2023-08-30 09:29:24  DSALTER-7221 Testing connection to computer
+2023-08-30 09:29:24  DSALTER-7221 Connecting to computer
+2023-08-30 09:29:24  DSALTER-7221 Checking if C:\temp directory exists on computer
+2023-08-30 09:29:24  DSALTER-7221 Copying files to computer
+2023-08-30 09:29:32  DSALTER-7221 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [DSALTER-7221] Connecting to remote server DSALTER-7221 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2023-08-30 09:29:43  DSALTER-7221 Error: -2144108526
+**********************
+Windows PowerShell transcript end
+End time: 20230830092943
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20230914083843
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1
+Process ID: 6840
+PSVersion: 5.1.17763.4720
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4720
+BuildVersion: 10.0.17763.4720
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2023-09-14 08:38:43  FAY-6724 Testing connection to computer
+2023-09-14 08:38:47  FAY-6724 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20230914083847
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231012153953
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe \\p01-wf-tch-01\data$\Marshall\Scripts\Cortex Agent\CortexAgent-Push.ps1
+Process ID: 12708
+PSVersion: 5.1.17763.4840
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4840
+BuildVersion: 10.0.17763.4840
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2023-10-12 15:39:53  TSCOTT-7005 Testing connection to computer
+2023-10-12 15:39:53  TSCOTT-7005 Connecting to computer
+2023-10-12 15:39:53  TSCOTT-7005 Checking if C:\temp directory exists on computer
+2023-10-12 15:39:53  TSCOTT-7005 Copying files to computer
+2023-10-12 15:40:00  TSCOTT-7005 Establishing PSSession to computer
+2023-10-12 15:40:00  TSCOTT-7005 Verifying service 'cyserver' doesn't exist
+2023-10-12 15:40:00  TSCOTT-7005 Running setup.exe on computer
+2023-10-12 15:40:02  TSCOTT-7005 Exit Code 1603
+**********************
+Windows PowerShell transcript end
+End time: 20231012154002
+**********************
