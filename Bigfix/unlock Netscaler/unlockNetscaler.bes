@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Task>
+		<Title>Unlock NetScaler User</Title>
+		<Description><![CDATA[<P><B>Please Enter the locked username. </P></B>
+<P>Username: <INPUT id=username name=username> </P><script>
+			document.body.ontakeaction = function() {
+				var User = document.getElementById( "username" ).value;
+				TakeSecureFixletAction( Relevance('id of current fixlet'), Relevance('id of current bes site'), "Action1", {}, { username: User } );
+				return false;
+			}
+			</script> ]]></Description>
+		<Relevance>true</Relevance>
+		<Category></Category>
+		<Source>Internal</Source>
+		<SourceID></SourceID>
+		<SourceReleaseDate>2020-04-24</SourceReleaseDate>
+		<SourceSeverity></SourceSeverity>
+		<CVENames></CVENames>
+		<SANSID></SANSID>
+		<MIMEField>
+			<Name>x-fixlet-modification-time</Name>
+			<Value>Fri, 24 Apr 2020 17:49:55 +0000</Value>
+		</MIMEField>
+		<Domain>BESC</Domain>
+		<DefaultAction ID="Action1">
+			<Description>
+				<PreLink>Click </PreLink>
+				<Link>here</Link>
+				<PostLink> to deploy this action.</PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">action uses wow64 redirection {not x64 of operating system}
+
+
+delete __createfile
+
+
+createfile until END_OF_FILE
+
+Start-transcript c:\temp\unlocknetscaler.txt
+
+$bfuser = '{parameter "username" of action}'
+
+$nsIp = "p01-ai-mpx-301.genesco.local"
+$nsUsername = "nsroot"
+$username = "nsroot"
+$PasswordstateUrl = 'https://pwstate.genesco.local/api/passwords/621'
+$account = Invoke-Restmethod -Method GET -Uri $PasswordstateUrl -Header @{ "APIKey" = "a36249357e8bdcfcd3243685fe79ab3a" }
+ 
+$creds = New-Object -TypeName System.Management.Automation.PSCredential -argumentlist $userName, $(convertto-securestring $account.password -asplaintext -force)
+ 
+$nspassword = $account.password
+write-host $account.password
+[System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
+ 
+$base64Auth = [Convert]::ToBase64String([Text.Encoding]::ASCII.GetBytes(("{0}:{1}" -f $nsUsername, $nspassword)))
+$url = "http://p01-ai-mpx-301.genesco.local/nitro/v1/config/aaauser?action=unlock"
+$body = @{
+        "aaauser" = @{
+            "username"= $bfuser
+        }
+    } | ConvertTo-Json
+ 
+    write-host $body
+ 
+$response = Invoke-RestMethod -Uri $url -Method POST -Headers @{ Authorization = "Basic $base64Auth" } -Body ($body) -ContentType "application/json"
+ 
+$account = ""
+
+Stop-Transcript
+
+
+Get-PSSession | Remove-PSSession
+
+
+
+END_OF_FILE
+
+delete powershell.ps1
+move __createfile powershell.ps1
+
+waithidden { pathname of file ((it as string) of value "Path" of key "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\ShellIds\Microsoft.PowerShell" of native registry) } -ExecutionPolicy Bypass -File powershell.ps1
+delete powershell.ps1</ActionScript>
+		</DefaultAction>
+	</Task>
+</BES>

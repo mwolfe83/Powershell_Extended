@@ -1,0 +1,953 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20231127150919
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701119337-49a191f8-968f-4c59-bbc4-f62029f907961701119335486\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-15740-398715.json' -FeatureFlags @() 
+Process ID: 10928
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-11-27 15:09:19  Amy-7164 Testing connection to computer
+2023-11-27 15:09:21  Amy-7164 Connection failed
+2023-11-27 15:09:21  BWADDINGTON-7792 Testing connection to computer
+2023-11-27 15:09:25  BWADDINGTON-7792 Connection failed
+2023-11-27 15:09:25  Bpurvis-1750 Testing connection to computer
+2023-11-27 15:09:27  Bpurvis-1750 Connection failed
+2023-11-27 15:09:27  Hwilson-7202 Testing connection to computer
+2023-11-27 15:09:29  Hwilson-7202 Connection failed
+2023-11-27 15:09:29  KMARSHALL 7183 Testing connection to computer
+2023-11-27 15:09:30  KMARSHALL 7183 Connection failed
+2023-11-27 15:09:30  dtallbott-7151 Testing connection to computer
+2023-11-27 15:09:32  dtallbott-7151 Connection failed
+2023-11-27 15:09:32  jetzkorn-7494 Testing connection to computer
+2023-11-27 15:09:35  jetzkorn-7494 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20231127150935
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231127151847
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.6.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.6.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.6.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701119337-49a191f8-968f-4c59-bbc4-f62029f907961701119335486\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-15740-398715.json' -FeatureFlags @() 
+Process ID: 10928
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-11-27 15:18:47  Amy-7164 Testing connection to computer
+2023-11-27 15:18:49  Amy-7164 Connection failed
+2023-11-27 15:18:49  BWADDINGTON-7792 Testing connection to computer
+2023-11-27 15:18:53  BWADDINGTON-7792 Connection failed
+2023-11-27 15:18:53  Bpurvis-1750 Testing connection to computer
+2023-11-27 15:18:55  Bpurvis-1750 Connection failed
+2023-11-27 15:18:55  Hwilson-7202 Testing connection to computer
+2023-11-27 15:18:57  Hwilson-7202 Connection failed
+2023-11-27 15:18:57  KMARSHALL 7183 Testing connection to computer
+2023-11-27 15:18:57  KMARSHALL 7183 Connection failed
+2023-11-27 15:18:58  dtallbott-7151 Testing connection to computer
+2023-11-27 15:19:00  dtallbott-7151 Connection failed
+2023-11-27 15:19:00  jetzkorn-7494 Testing connection to computer
+2023-11-27 15:19:03  jetzkorn-7494 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20231127151903
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231129085323
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701269592-571f88ee-70c3-4151-82bb-93c75bcb3a481701269590543\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-11820-252806.json' -FeatureFlags @() 
+Process ID: 11932
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-11-29 08:53:23  Amy-7164 Testing connection to computer
+2023-11-29 08:53:25  Amy-7164 Connection failed
+2023-11-29 08:53:25  Aron-7789 Testing connection to computer
+2023-11-29 08:53:27  Aron-7789 Connection failed
+2023-11-29 08:53:27  BWADDINGTON-7792 Testing connection to computer
+2023-11-29 08:53:28  BWADDINGTON-7792 Connection failed
+2023-11-29 08:53:28  Bpurvis-1750 Testing connection to computer
+2023-11-29 08:53:31  Bpurvis-1750 Connection failed
+2023-11-29 08:53:31  Hwilson-7202 Testing connection to computer
+2023-11-29 08:53:33  Hwilson-7202 Connection failed
+2023-11-29 08:53:33  KMARSHALL7183 Testing connection to computer
+2023-11-29 08:53:35  KMARSHALL7183 Connection failed
+2023-11-29 08:53:35  SBRANDENBURG-7677 Testing connection to computer
+2023-11-29 08:53:39  SBRANDENBURG-7677 Connection failed
+2023-11-29 08:53:39  dtallbott-7151 Testing connection to computer
+2023-11-29 08:53:41  dtallbott-7151 Connection failed
+2023-11-29 08:53:41  lmontgomery-7119 Testing connection to computer
+2023-11-29 08:53:41  lmontgomery-7119 Connecting to computer
+2023-11-29 08:53:41  lmontgomery-7119 Checking if C:\temp directory exists on computer
+2023-11-29 08:53:41  lmontgomery-7119 Copying files to computer
+2023-11-29 08:53:44  lmontgomery-7119 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [lmontgomery-7119] Connecting to remote server lmontgomery-7119 failed with the following error message : WinRM cannot process the request. The following error occurred while using Kerberos authentication: Cannot find the computer lmontgomery-7119. Verify that the computer exists on the network and that the name provided is spelled correctly. For more information, see the about_Remote_Troubleshooting Help topic."
+2023-11-29 08:53:44  lmontgomery-7119 Error: 53
+2023-11-29 08:53:44  lmontgomery-7119 System error 53 has occurred. The network path was not found.
+**********************
+Windows PowerShell transcript end
+End time: 20231129085344
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231129150100
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701269592-571f88ee-70c3-4151-82bb-93c75bcb3a481701269590543\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-11820-252806.json' -FeatureFlags @() 
+Process ID: 11932
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-11-29 15:01:00  BWADDINGTON-7792 Testing connection to computer
+2023-11-29 15:01:04  BWADDINGTON-7792 Connection failed
+2023-11-29 15:01:04  Bpurvis-1750 Testing connection to computer
+2023-11-29 15:01:06  Bpurvis-1750 Connection failed
+2023-11-29 15:01:06  Hwilson-7202 Testing connection to computer
+2023-11-29 15:01:08  Hwilson-7202 Connection failed
+2023-11-29 15:01:08  KMARSHALL7183 Testing connection to computer
+2023-11-29 15:01:11  KMARSHALL7183 Connection failed
+2023-11-29 15:01:11  SBRANDENBURG-7677 Testing connection to computer
+2023-11-29 15:01:14  SBRANDENBURG-7677 Connection failed
+2023-11-29 15:01:14  dtallbott-7151 Testing connection to computer
+2023-11-29 15:01:17  dtallbott-7151 Connection failed
+2023-11-29 15:01:17  lmontgomery-7119 Testing connection to computer
+2023-11-29 15:01:20  lmontgomery-7119 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20231129150120
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231130080533
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701269592-571f88ee-70c3-4151-82bb-93c75bcb3a481701269590543\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-11820-252806.json' -FeatureFlags @() 
+Process ID: 11932
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-11-30 08:05:33  BWADDINGTON-7792 Testing connection to computer
+2023-11-30 08:05:37  BWADDINGTON-7792 Connection failed
+2023-11-30 08:05:37  Bpurvis-1750 Testing connection to computer
+2023-11-30 08:05:39  Bpurvis-1750 Connection failed
+2023-11-30 08:05:39  Hwilson-7202 Testing connection to computer
+2023-11-30 08:05:41  Hwilson-7202 Connection failed
+2023-11-30 08:05:41  KMARSHALL7183 Testing connection to computer
+2023-11-30 08:05:44  KMARSHALL7183 Connection failed
+2023-11-30 08:05:44  SBRANDENBURG-7677 Testing connection to computer
+2023-11-30 08:05:47  SBRANDENBURG-7677 Connection failed
+2023-11-30 08:05:47  dtallbott-7151 Testing connection to computer
+2023-11-30 08:05:49  dtallbott-7151 Connection failed
+2023-11-30 08:05:49  lmontgomery-7119 Testing connection to computer
+2023-11-30 08:05:53  lmontgomery-7119 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20231130080553
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231204081702
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701699246-482ab6ab-d906-4c87-904f-7bdacc997b971701699244433\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-10624-111329.json' -FeatureFlags @() 
+Process ID: 19944
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-12-04 08:17:02  BWADDINGTON-7792 Testing connection to computer
+2023-12-04 08:17:02  BWADDINGTON-7792 Connecting to computer
+2023-12-04 08:17:02  BWADDINGTON-7792 Checking if C:\temp directory exists on computer
+2023-12-04 08:17:02  BWADDINGTON-7792 Copying files to computer
+2023-12-04 08:17:05  BWADDINGTON-7792 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [BWADDINGTON-7792] Connecting to remote server BWADDINGTON-7792 failed with the following error message : WinRM cannot process the request. The following error occurred while using Kerberos authentication: Cannot find the computer BWADDINGTON-7792. Verify that the computer exists on the network and that the name provided is spelled correctly. For more information, see the about_Remote_Troubleshooting Help topic."
+2023-12-04 08:17:05  BWADDINGTON-7792 Error: 53
+2023-12-04 08:17:05  BWADDINGTON-7792 System error 53 has occurred. The network path was not found.
+2023-12-04 08:17:05  Bpurvis-1750 Testing connection to computer
+2023-12-04 08:17:07  Bpurvis-1750 Connection failed
+2023-12-04 08:17:07  KMARSHALL7183 Testing connection to computer
+2023-12-04 08:17:09  KMARSHALL7183 Connection failed
+2023-12-04 08:17:09  SBRANDENBURG-7677 Testing connection to computer
+2023-12-04 08:17:10  SBRANDENBURG-7677 Connection failed
+2023-12-04 08:17:10  dtallbott-7151 Testing connection to computer
+2023-12-04 08:17:13  dtallbott-7151 Connection failed
+2023-12-04 08:17:13  lmontgomery-7119 Testing connection to computer
+2023-12-04 08:17:13  lmontgomery-7119 Connecting to computer
+2023-12-04 08:17:13  lmontgomery-7119 Checking if C:\temp directory exists on computer
+2023-12-04 08:17:13  lmontgomery-7119 Copying files to computer
+2023-12-04 08:17:15  lmontgomery-7119 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [lmontgomery-7119] Connecting to remote server lmontgomery-7119 failed with the following error message : WinRM cannot process the request. The following error occurred while using Kerberos authentication: Cannot find the computer lmontgomery-7119. Verify that the computer exists on the network and that the name provided is spelled correctly. For more information, see the about_Remote_Troubleshooting Help topic."
+2023-12-04 08:17:15  lmontgomery-7119 Error: 53
+2023-12-04 08:17:15  lmontgomery-7119 System error 53 has occurred. The network path was not found.
+**********************
+Windows PowerShell transcript end
+End time: 20231204081715
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231204142444
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701699246-482ab6ab-d906-4c87-904f-7bdacc997b971701699244433\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-10624-111329.json' -FeatureFlags @() 
+Process ID: 19944
+PSVersion: 5.1.17763.4974
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4974
+BuildVersion: 10.0.17763.4974
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-12-04 14:24:44  BWADDINGTON-7792 Testing connection to computer
+2023-12-04 14:24:48  BWADDINGTON-7792 Connection failed
+2023-12-04 14:24:48  Bpurvis-1750 Testing connection to computer
+2023-12-04 14:24:50  Bpurvis-1750 Connection failed
+2023-12-04 14:24:50  KMARSHALL7183 Testing connection to computer
+2023-12-04 14:24:52  KMARSHALL7183 Connection failed
+2023-12-04 14:24:52  SBRANDENBURG-7677 Testing connection to computer
+2023-12-04 14:24:56  SBRANDENBURG-7677 Connection failed
+2023-12-04 14:24:56  dtallbott-7151 Testing connection to computer
+2023-12-04 14:24:58  dtallbott-7151 Connection failed
+2023-12-04 14:24:58  lmontgomery-7119 Testing connection to computer
+2023-12-04 14:25:02  lmontgomery-7119 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20231204142502
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20231206091416
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command Import-Module 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules\PowerShellEditorServices\PowerShellEditorServices.psd1'; Start-EditorServices -HostName 'Visual Studio Code Host' -HostProfileId 'Microsoft.VSCode' -HostVersion '2023.8.0' -AdditionalModules @('PowerShellEditorServices.VSCode') -BundledModulesPath 'c:\Users\mbwolfe\.vscode\extensions\ms-vscode.powershell-2023.8.0\modules' -EnableConsoleRepl -StartupBanner "PowerShell Extension v2023.8.0
+Copyright (c) Microsoft Corporation.
+
+https://aka.ms/vscode-powershell
+Type 'help' to get help.
+" -LogLevel 'Normal' -LogPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\logs\1701875642-7cef5475-88f1-409d-8bd7-aa90ecedc6cb1701875640975\EditorServices.log' -SessionDetailsPath 'c:\Users\mbwolfe\AppData\Roaming\Code\User\globalStorage\ms-vscode.powershell\sessions\PSES-VSCode-7672-980608.json' -FeatureFlags @() 
+Process ID: 11120
+PSVersion: 5.1.17763.5122
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.5122
+BuildVersion: 10.0.17763.5122
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2023-12-06 09:14:16  dtallbott-7151 Testing connection to computer
+2023-12-06 09:14:19  dtallbott-7151 Connection failed
+2023-12-06 09:14:19  jpower-7177 Testing connection to computer
+2023-12-06 09:14:22  jpower-7177 Connection failed
+**********************
+Windows PowerShell transcript end
+End time: 20231206091422
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240104094351
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-KWG-01 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & '\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1'
+Process ID: 5480
+PSVersion: 5.1.17763.5202
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.5202
+BuildVersion: 10.0.17763.5202
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2024-01-04 09:43:51  P01-WA-KWG-01 Testing connection to computer
+2024-01-04 09:43:51  P01-WA-KWG-01 Connecting to computer
+2024-01-04 09:43:51  P01-WA-KWG-01 Checking if C:\temp directory exists on computer
+2024-01-04 09:43:51  P01-WA-KWG-01 Copying files to computer
+2024-01-04 09:43:51  P01-WA-KWG-01 Establishing PSSession to computer
+2024-01-04 09:43:53  P01-WA-KWG-01 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-01-04 09:43:53  P01-WA-KWG-01 Running setup.exe on computer
+2024-01-04 09:44:32  P01-WA-KWG-01 setup.exe executed successfully on computer
+**********************
+Windows PowerShell transcript end
+End time: 20240104094432
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240105105541
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Machine: ILMT1 (Microsoft Windows NT 6.3.9600.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & '\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1'
+Process ID: 8212
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2024-01-05 10:55:41  ilmt1 Testing connection to computer
+2024-01-05 10:55:41  ilmt1 Connecting to computer
+2024-01-05 10:55:41  ilmt1 Checking if C:\temp directory exists on computer
+2024-01-05 10:55:41  ilmt1 Copying files to computer
+
+PS>TerminatingError(Copy-Item): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: Access to the path '\\ilmt1\c$\temp\Bigfix-Install-Package\masthead.afxm' is denied."
+2024-01-05 10:55:41  ilmt1 Error:
+**********************
+Windows PowerShell transcript end
+End time: 20240105105541
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240409154631
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 7264
+PSVersion: 5.1.17763.5576
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.5576
+BuildVersion: 10.0.17763.5576
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2024-04-09 15:46:31  10.5.87.14 Testing connection to computer
+2024-04-09 15:46:31  10.5.87.14 Connecting to computer
+2024-04-09 15:46:31  10.5.87.14 Checking if C:\temp directory exists on computer
+2024-04-09 15:46:32  10.5.87.14 Copying files to computer
+2024-04-09 15:46:40  10.5.87.14 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [10.5.87.14] Connecting to remote server 10.5.87.14 failed with the following error message : The WinRM client cannot process the request. Default authentication may be used with an IP address under the following conditions: the transport is HTTPS or the destination is in the TrustedHosts list, and explicit credentials are provided. Use winrm.cmd to configure TrustedHosts. Note that computers in the TrustedHosts list might not be authenticated. For more information on how to set TrustedHosts run the following command: winrm help config. For more information, see the about_Remote_Troubleshooting Help topic."
+2024-04-09 15:46:41  10.5.87.14 Error: -2144108101
+**********************
+Windows PowerShell transcript end
+End time: 20240409154641
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240624213620
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & '\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1'
+Process ID: 21780
+PSVersion: 5.1.17763.5820
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.5820
+BuildVersion: 10.0.17763.5820
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+2024-06-24 21:36:20  tjones3-7387 Testing connection to computer
+2024-06-24 21:36:20  tjones3-7387 Connecting to computer
+2024-06-24 21:36:20  tjones3-7387 Checking if C:\temp directory exists on computer
+2024-06-24 21:36:21  tjones3-7387 Copying files to computer
+2024-06-24 21:36:30  tjones3-7387 Establishing PSSession to computer
+2024-06-24 21:36:32  tjones3-7387 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-24 21:36:33  tjones3-7387 Running setup.exe on computer
+2024-06-24 21:36:54  tjones3-7387 setup.exe executed successfully on computer
+**********************
+Windows PowerShell transcript end
+End time: 20240624213654
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240625110814
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1
+Process ID: 21148
+PSVersion: 5.1.17763.5820
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.5820
+BuildVersion: 10.0.17763.5820
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2024-06-25 11:08:14  mmalone-7537 Testing connection to computer
+2024-06-25 11:08:14  mmalone-7537 Connecting to computer
+2024-06-25 11:08:14  mmalone-7537 Checking if C:\temp directory exists on computer
+2024-06-25 11:08:15  mmalone-7537 Copying files to computer
+2024-06-25 11:08:24  mmalone-7537 Establishing PSSession to computer
+2024-06-25 11:08:26  mmalone-7537 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:08:26  mmalone-7537 Running setup.exe on computer
+2024-06-25 11:08:58  mmalone-7537 setup.exe executed successfully on computer
+**********************
+Windows PowerShell transcript end
+End time: 20240625110858
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240625114204
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1
+Process ID: 21148
+PSVersion: 5.1.17763.5820
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.5820
+BuildVersion: 10.0.17763.5820
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2024-06-25 11:42:04  GCO-152 Testing connection to computer
+2024-06-25 11:42:04  GCO-152 Connecting to computer
+2024-06-25 11:42:04  GCO-152 Checking if C:\temp directory exists on computer
+2024-06-25 11:42:04  GCO-152 Creating C:\temp directory on computer
+2024-06-25 11:42:04  GCO-152 Copying files to computer
+2024-06-25 11:42:06  GCO-152 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [GCO-152] Connecting to remote server GCO-152 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:42:18  GCO-152 Error: -2144108526
+2024-06-25 11:42:18  GCO04432 Testing connection to computer
+2024-06-25 11:42:18  GCO04432 Connecting to computer
+2024-06-25 11:42:18  GCO04432 Checking if C:\temp directory exists on computer
+2024-06-25 11:42:18  GCO04432 Copying files to computer
+2024-06-25 11:42:18  GCO04432 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [GCO04432] Connecting to remote server GCO04432 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:42:29  GCO04432 Error: -2144108526
+2024-06-25 11:42:29  GCO-125 Testing connection to computer
+2024-06-25 11:42:29  GCO-125 Connecting to computer
+2024-06-25 11:42:29  GCO-125 Checking if C:\temp directory exists on computer
+2024-06-25 11:42:29  GCO-125 Creating C:\temp directory on computer
+2024-06-25 11:42:29  GCO-125 Copying files to computer
+2024-06-25 11:42:32  GCO-125 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [GCO-125] Connecting to remote server GCO-125 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:42:43  GCO-125 Error: -2144108526
+2024-06-25 11:42:43  DHINSON-7275 Testing connection to computer
+2024-06-25 11:42:43  DHINSON-7275 Connecting to computer
+2024-06-25 11:42:43  DHINSON-7275 Checking if C:\temp directory exists on computer
+2024-06-25 11:42:43  DHINSON-7275 Copying files to computer
+2024-06-25 11:42:49  DHINSON-7275 Establishing PSSession to computer
+2024-06-25 11:42:52  DHINSON-7275 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:42:52  DHINSON-7275 Running setup.exe on computer
+2024-06-25 11:44:06  DHINSON-7275 setup.exe executed successfully on computer
+2024-06-25 11:44:06  KVEGA-7218 Testing connection to computer
+2024-06-25 11:44:06  KVEGA-7218 Connecting to computer
+2024-06-25 11:44:06  KVEGA-7218 Checking if C:\temp directory exists on computer
+2024-06-25 11:44:06  KVEGA-7218 Copying files to computer
+2024-06-25 11:44:08  KVEGA-7218 Establishing PSSession to computer
+2024-06-25 11:44:10  KVEGA-7218 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:44:10  KVEGA-7218 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:44:10  AROBINSON-7196 Testing connection to computer
+2024-06-25 11:44:10  AROBINSON-7196 Connecting to computer
+2024-06-25 11:44:10  AROBINSON-7196 Checking if C:\temp directory exists on computer
+2024-06-25 11:44:11  AROBINSON-7196 Copying files to computer
+2024-06-25 11:44:12  AROBINSON-7196 Establishing PSSession to computer
+2024-06-25 11:44:27  AROBINSON-7196 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:44:27  AROBINSON-7196 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:44:27  NHARRIS-7288 Testing connection to computer
+2024-06-25 11:44:27  NHARRIS-7288 Connecting to computer
+2024-06-25 11:44:27  NHARRIS-7288 Checking if C:\temp directory exists on computer
+2024-06-25 11:44:28  NHARRIS-7288 Copying files to computer
+2024-06-25 11:44:38  NHARRIS-7288 Establishing PSSession to computer
+2024-06-25 11:44:43  NHARRIS-7288 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:44:44  NHARRIS-7288 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:44:44  MBOWEN-7753 Testing connection to computer
+2024-06-25 11:44:48  MBOWEN-7753 Connection failed
+2024-06-25 11:44:48  ASYPHERS-7774 Testing connection to computer
+2024-06-25 11:44:52  ASYPHERS-7774 Connection failed
+2024-06-25 11:44:52  CPATTERSON-7278 Testing connection to computer
+2024-06-25 11:44:52  CPATTERSON-7278 Connecting to computer
+2024-06-25 11:44:52  CPATTERSON-7278 Checking if C:\temp directory exists on computer
+2024-06-25 11:44:52  CPATTERSON-7278 Copying files to computer
+2024-06-25 11:44:55  CPATTERSON-7278 Establishing PSSession to computer
+2024-06-25 11:44:57  CPATTERSON-7278 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:44:57  CPATTERSON-7278 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:44:57  P01-WC-DSK-18 Testing connection to computer
+2024-06-25 11:44:57  P01-WC-DSK-18 Connecting to computer
+2024-06-25 11:44:57  P01-WC-DSK-18 Checking if C:\temp directory exists on computer
+2024-06-25 11:44:58  P01-WC-DSK-18 Copying files to computer
+2024-06-25 11:44:58  P01-WC-DSK-18 Establishing PSSession to computer
+2024-06-25 11:45:04  P01-WC-DSK-18 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:45:04  P01-WC-DSK-18 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:45:04  CLAYMAN-7689 Testing connection to computer
+2024-06-25 11:45:08  CLAYMAN-7689 Connection failed
+2024-06-25 11:45:08  AVANATTA-7528 Testing connection to computer
+2024-06-25 11:45:08  AVANATTA-7528 Connecting to computer
+2024-06-25 11:45:08  AVANATTA-7528 Checking if C:\temp directory exists on computer
+2024-06-25 11:45:08  AVANATTA-7528 Copying files to computer
+2024-06-25 11:45:19  AVANATTA-7528 Establishing PSSession to computer
+2024-06-25 11:45:22  AVANATTA-7528 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:45:22  AVANATTA-7528 Running setup.exe on computer
+2024-06-25 11:45:52  AVANATTA-7528 setup.exe executed successfully on computer
+2024-06-25 11:45:52  HWILSON-7144 Testing connection to computer
+2024-06-25 11:45:52  HWILSON-7144 Connecting to computer
+2024-06-25 11:45:52  HWILSON-7144 Checking if C:\temp directory exists on computer
+2024-06-25 11:45:52  HWILSON-7144 Copying files to computer
+2024-06-25 11:45:56  HWILSON-7144 Establishing PSSession to computer
+2024-06-25 11:45:58  HWILSON-7144 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:45:58  HWILSON-7144 Running setup.exe on computer
+2024-06-25 11:46:45  HWILSON-7144 setup.exe executed successfully on computer
+2024-06-25 11:46:45  JHORNER-6434 Testing connection to computer
+2024-06-25 11:46:45  JHORNER-6434 Connecting to computer
+2024-06-25 11:46:45  JHORNER-6434 Checking if C:\temp directory exists on computer
+2024-06-25 11:46:45  JHORNER-6434 Copying files to computer
+2024-06-25 11:46:50  JHORNER-6434 Establishing PSSession to computer
+2024-06-25 11:46:52  JHORNER-6434 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:46:52  JHORNER-6434 Running setup.exe on computer
+2024-06-25 11:47:12  JHORNER-6434 setup.exe executed successfully on computer
+2024-06-25 11:47:12  LDWCDSKP01 Testing connection to computer
+2024-06-25 11:47:12  LDWCDSKP01 Connecting to computer
+2024-06-25 11:47:12  LDWCDSKP01 Checking if C:\temp directory exists on computer
+2024-06-25 11:47:12  LDWCDSKP01 Copying files to computer
+2024-06-25 11:47:12  LDWCDSKP01 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [LDWCDSKP01] Connecting to remote server LDWCDSKP01 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:47:23  LDWCDSKP01 Error: -2144108526
+2024-06-25 11:47:23  P01-WC-DSK-22 Testing connection to computer
+2024-06-25 11:47:23  P01-WC-DSK-22 Connecting to computer
+2024-06-25 11:47:23  P01-WC-DSK-22 Checking if C:\temp directory exists on computer
+2024-06-25 11:47:24  P01-WC-DSK-22 Copying files to computer
+2024-06-25 11:47:24  P01-WC-DSK-22 Establishing PSSession to computer
+2024-06-25 11:47:26  P01-WC-DSK-22 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:47:26  P01-WC-DSK-22 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:47:26  GCO-135 Testing connection to computer
+2024-06-25 11:47:30  GCO-135 Connection failed
+2024-06-25 11:47:30  LBLOANER-7364 Testing connection to computer
+2024-06-25 11:47:34  LBLOANER-7364 Connection failed
+2024-06-25 11:47:34  ADUCKWORTH-7163 Testing connection to computer
+2024-06-25 11:47:34  ADUCKWORTH-7163 Connecting to computer
+2024-06-25 11:47:34  ADUCKWORTH-7163 Checking if C:\temp directory exists on computer
+2024-06-25 11:47:34  ADUCKWORTH-7163 Copying files to computer
+2024-06-25 11:47:37  ADUCKWORTH-7163 Establishing PSSession to computer
+2024-06-25 11:47:39  ADUCKWORTH-7163 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:47:39  ADUCKWORTH-7163 Running setup.exe on computer
+2024-06-25 11:48:21  ADUCKWORTH-7163 setup.exe executed successfully on computer
+2024-06-25 11:48:21  REGENT-VM Testing connection to computer
+2024-06-25 11:48:21  REGENT-VM Connecting to computer
+2024-06-25 11:48:21  REGENT-VM Checking if C:\temp directory exists on computer
+2024-06-25 11:48:21  REGENT-VM Copying files to computer
+2024-06-25 11:48:22  REGENT-VM Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [REGENT-VM] Connecting to remote server REGENT-VM failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:48:33  REGENT-VM Error: -2144108526
+2024-06-25 11:48:33  JBYRD-3560 Testing connection to computer
+2024-06-25 11:48:33  JBYRD-3560 Connecting to computer
+2024-06-25 11:48:33  JBYRD-3560 Checking if C:\temp directory exists on computer
+2024-06-25 11:48:34  JBYRD-3560 Copying files to computer
+2024-06-25 11:48:46  JBYRD-3560 Establishing PSSession to computer
+2024-06-25 11:48:48  JBYRD-3560 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:48:49  JBYRD-3560 Running setup.exe on computer
+2024-06-25 11:49:07  JBYRD-3560 setup.exe executed successfully on computer
+2024-06-25 11:49:07  P01-WC-DSK-05 Testing connection to computer
+2024-06-25 11:49:07  P01-WC-DSK-05 Connecting to computer
+2024-06-25 11:49:07  P01-WC-DSK-05 Checking if C:\temp directory exists on computer
+2024-06-25 11:49:07  P01-WC-DSK-05 Copying files to computer
+2024-06-25 11:49:07  P01-WC-DSK-05 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [P01-WC-DSK-05] Connecting to remote server P01-WC-DSK-05 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:49:19  P01-WC-DSK-05 Error: -2144108526
+2024-06-25 11:49:19  P01-WC-DSK-19 Testing connection to computer
+2024-06-25 11:49:19  P01-WC-DSK-19 Connecting to computer
+2024-06-25 11:49:19  P01-WC-DSK-19 Checking if C:\temp directory exists on computer
+2024-06-25 11:49:19  P01-WC-DSK-19 Copying files to computer
+2024-06-25 11:49:19  P01-WC-DSK-19 Establishing PSSession to computer
+2024-06-25 11:49:24  P01-WC-DSK-19 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:49:24  P01-WC-DSK-19 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:49:24  GPPAVCSAPR1 Testing connection to computer
+2024-06-25 11:49:24  GPPAVCSAPR1 Connecting to computer
+2024-06-25 11:49:24  GPPAVCSAPR1 Checking if C:\temp directory exists on computer
+2024-06-25 11:49:45  GPPAVCSAPR1 Creating C:\temp directory on computer
+PS>TerminatingError(New-Item): "The network path was not found"
+New-Item : The network path was not found
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1:26 char:13
++             New-Item -ItemType Directory -Path $tempDirectory | Out-N ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [New-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : The network path was not found
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1:26 char:13
++             New-Item -ItemType Directory -Path $tempDirectory | Out-N ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [New-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.NewItemCommand
+
+2024-06-25 11:49:46  GPPAVCSAPR1 Copying files to computer
+PS>TerminatingError(Copy-Item): "The network path was not found"
+2024-06-25 11:49:46  GPPAVCSAPR1 Error:
+2024-06-25 11:49:46  GCO-138 Testing connection to computer
+2024-06-25 11:49:46  GCO-138 Connecting to computer
+2024-06-25 11:49:46  GCO-138 Checking if C:\temp directory exists on computer
+2024-06-25 11:49:46  GCO-138 Creating C:\temp directory on computer
+2024-06-25 11:49:46  GCO-138 Copying files to computer
+2024-06-25 11:49:48  GCO-138 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [GCO-138] Connecting to remote server GCO-138 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:50:00  GCO-138 Error: -2144108526
+2024-06-25 11:50:00  P01-WC-DSK-21 Testing connection to computer
+2024-06-25 11:50:00  P01-WC-DSK-21 Connecting to computer
+2024-06-25 11:50:00  P01-WC-DSK-21 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:00  P01-WC-DSK-21 Copying files to computer
+2024-06-25 11:50:00  P01-WC-DSK-21 Establishing PSSession to computer
+2024-06-25 11:50:02  P01-WC-DSK-21 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:50:02  P01-WC-DSK-21 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:50:02  P01-WC-DSK-16 Testing connection to computer
+2024-06-25 11:50:02  P01-WC-DSK-16 Connecting to computer
+2024-06-25 11:50:02  P01-WC-DSK-16 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:02  P01-WC-DSK-16 Copying files to computer
+2024-06-25 11:50:03  P01-WC-DSK-16 Establishing PSSession to computer
+2024-06-25 11:50:07  P01-WC-DSK-16 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:50:07  P01-WC-DSK-16 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:50:07  KFARRELL-7131 Testing connection to computer
+2024-06-25 11:50:07  KFARRELL-7131 Connecting to computer
+2024-06-25 11:50:07  KFARRELL-7131 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:07  KFARRELL-7131 Copying files to computer
+2024-06-25 11:50:10  KFARRELL-7131 Establishing PSSession to computer
+2024-06-25 11:50:13  KFARRELL-7131 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:50:13  KFARRELL-7131 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:50:13  JTIGHE-7883 Testing connection to computer
+2024-06-25 11:50:13  JTIGHE-7883 Connecting to computer
+2024-06-25 11:50:13  JTIGHE-7883 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:13  JTIGHE-7883 Copying files to computer
+2024-06-25 11:50:15  JTIGHE-7883 Establishing PSSession to computer
+2024-06-25 11:50:19  JTIGHE-7883 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:50:19  JTIGHE-7883 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:50:19  GCO-136 Testing connection to computer
+2024-06-25 11:50:19  GCO-136 Connecting to computer
+2024-06-25 11:50:19  GCO-136 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:19  GCO-136 Creating C:\temp directory on computer
+2024-06-25 11:50:19  GCO-136 Copying files to computer
+2024-06-25 11:50:22  GCO-136 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [GCO-136] Connecting to remote server GCO-136 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:50:33  GCO-136 Error: -2144108526
+2024-06-25 11:50:33  P01-WC-DSK-17 Testing connection to computer
+2024-06-25 11:50:33  P01-WC-DSK-17 Connecting to computer
+2024-06-25 11:50:33  P01-WC-DSK-17 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:33  P01-WC-DSK-17 Copying files to computer
+2024-06-25 11:50:33  P01-WC-DSK-17 Establishing PSSession to computer
+2024-06-25 11:50:36  P01-WC-DSK-17 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:50:36  P01-WC-DSK-17 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:50:36  P01-WC-DSK-12 Testing connection to computer
+2024-06-25 11:50:36  P01-WC-DSK-12 Connecting to computer
+2024-06-25 11:50:36  P01-WC-DSK-12 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:36  P01-WC-DSK-12 Copying files to computer
+2024-06-25 11:50:37  P01-WC-DSK-12 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [P01-WC-DSK-12] Connecting to remote server P01-WC-DSK-12 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:50:47  P01-WC-DSK-12 Error: -2144108526
+2024-06-25 11:50:47  SHIPREC-6483 Testing connection to computer
+2024-06-25 11:50:47  SHIPREC-6483 Connecting to computer
+2024-06-25 11:50:47  SHIPREC-6483 Checking if C:\temp directory exists on computer
+2024-06-25 11:50:47  SHIPREC-6483 Copying files to computer
+2024-06-25 11:50:52  SHIPREC-6483 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [SHIPREC-6483] Connecting to remote server SHIPREC-6483 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:51:04  SHIPREC-6483 Error: -2144108526
+2024-06-25 11:51:04  GPSASPLDV01 Testing connection to computer
+2024-06-25 11:51:04  GPSASPLDV01 Connecting to computer
+2024-06-25 11:51:04  GPSASPLDV01 Checking if C:\temp directory exists on computer
+2024-06-25 11:51:12  GPSASPLDV01 Creating C:\temp directory on computer
+PS>TerminatingError(New-Item): "The network path was not found"
+New-Item : The network path was not found
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1:26 char:13
++             New-Item -ItemType Directory -Path $tempDirectory | Out-N ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [New-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : The network path was not found
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1:26 char:13
++             New-Item -ItemType Directory -Path $tempDirectory | Out-N ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [New-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.NewItemCommand
+
+2024-06-25 11:51:12  GPSASPLDV01 Copying files to computer
+PS>TerminatingError(Copy-Item): "The network path was not found"
+2024-06-25 11:51:12  GPSASPLDV01 Error:
+2024-06-25 11:51:12  P01-WC-DSK-23 Testing connection to computer
+2024-06-25 11:51:12  P01-WC-DSK-23 Connecting to computer
+2024-06-25 11:51:12  P01-WC-DSK-23 Checking if C:\temp directory exists on computer
+2024-06-25 11:51:12  P01-WC-DSK-23 Copying files to computer
+2024-06-25 11:51:12  P01-WC-DSK-23 Establishing PSSession to computer
+2024-06-25 11:51:14  P01-WC-DSK-23 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:51:14  P01-WC-DSK-23 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:51:14  GCO-142 Testing connection to computer
+2024-06-25 11:51:14  GCO-142 Connecting to computer
+2024-06-25 11:51:14  GCO-142 Checking if C:\temp directory exists on computer
+2024-06-25 11:51:14  GCO-142 Creating C:\temp directory on computer
+2024-06-25 11:51:14  GCO-142 Copying files to computer
+2024-06-25 11:51:17  GCO-142 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [GCO-142] Connecting to remote server GCO-142 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:51:28  GCO-142 Error: -2144108526
+2024-06-25 11:51:28  SNDPERFTEST1 Testing connection to computer
+2024-06-25 11:51:28  SNDPERFTEST1 Connecting to computer
+2024-06-25 11:51:28  SNDPERFTEST1 Checking if C:\temp directory exists on computer
+2024-06-25 11:51:28  SNDPERFTEST1 Copying files to computer
+2024-06-25 11:51:29  SNDPERFTEST1 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [SNDPERFTEST1] Connecting to remote server SNDPERFTEST1 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:51:40  SNDPERFTEST1 Error: -2144108526
+2024-06-25 11:51:40  BCULVER-7437 Testing connection to computer
+2024-06-25 11:51:40  BCULVER-7437 Connecting to computer
+2024-06-25 11:51:40  BCULVER-7437 Checking if C:\temp directory exists on computer
+2024-06-25 11:51:41  BCULVER-7437 Copying files to computer
+2024-06-25 11:51:44  BCULVER-7437 Establishing PSSession to computer
+2024-06-25 11:51:47  BCULVER-7437 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:51:47  BCULVER-7437 Running setup.exe on computer
+2024-06-25 11:52:46  BCULVER-7437 setup.exe executed successfully on computer
+2024-06-25 11:52:46  SDEMARCO-7400 Testing connection to computer
+2024-06-25 11:52:46  SDEMARCO-7400 Connecting to computer
+2024-06-25 11:52:46  SDEMARCO-7400 Checking if C:\temp directory exists on computer
+2024-06-25 11:52:46  SDEMARCO-7400 Copying files to computer
+2024-06-25 11:52:49  SDEMARCO-7400 Establishing PSSession to computer
+2024-06-25 11:52:56  SDEMARCO-7400 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:52:56  SDEMARCO-7400 Running setup.exe on computer
+2024-06-25 11:53:41  SDEMARCO-7400 setup.exe executed successfully on computer
+2024-06-25 11:53:41  EBARGER-7605 Testing connection to computer
+2024-06-25 11:53:41  EBARGER-7605 Connecting to computer
+2024-06-25 11:53:41  EBARGER-7605 Checking if C:\temp directory exists on computer
+2024-06-25 11:53:41  EBARGER-7605 Copying files to computer
+2024-06-25 11:53:43  EBARGER-7605 Establishing PSSession to computer
+2024-06-25 11:53:45  EBARGER-7605 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:53:45  EBARGER-7605 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:53:45  TSMITH-7736 Testing connection to computer
+2024-06-25 11:53:45  TSMITH-7736 Connecting to computer
+2024-06-25 11:53:45  TSMITH-7736 Checking if C:\temp directory exists on computer
+2024-06-25 11:53:45  TSMITH-7736 Copying files to computer
+2024-06-25 11:53:47  TSMITH-7736 Establishing PSSession to computer
+2024-06-25 11:53:52  TSMITH-7736 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:53:52  TSMITH-7736 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:53:52  TMACIAS-6728 Testing connection to computer
+2024-06-25 11:53:56  TMACIAS-6728 Connection failed
+2024-06-25 11:53:56  CWILBURN-7627 Testing connection to computer
+2024-06-25 11:53:56  CWILBURN-7627 Connecting to computer
+2024-06-25 11:53:56  CWILBURN-7627 Checking if C:\temp directory exists on computer
+2024-06-25 11:53:56  CWILBURN-7627 Copying files to computer
+2024-06-25 11:53:59  CWILBURN-7627 Establishing PSSession to computer
+2024-06-25 11:54:01  CWILBURN-7627 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:54:01  CWILBURN-7627 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:54:01  RMYERS-7631 Testing connection to computer
+2024-06-25 11:54:01  RMYERS-7631 Connecting to computer
+2024-06-25 11:54:01  RMYERS-7631 Checking if C:\temp directory exists on computer
+2024-06-25 11:54:02  RMYERS-7631 Copying files to computer
+2024-06-25 11:54:13  RMYERS-7631 Establishing PSSession to computer
+2024-06-25 11:54:16  RMYERS-7631 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:54:17  RMYERS-7631 Running setup.exe on computer
+2024-06-25 11:54:58  RMYERS-7631 setup.exe executed successfully on computer
+2024-06-25 11:54:58  CROWAN-6905 Testing connection to computer
+2024-06-25 11:54:58  CROWAN-6905 Connecting to computer
+2024-06-25 11:54:58  CROWAN-6905 Checking if C:\temp directory exists on computer
+2024-06-25 11:54:58  CROWAN-6905 Copying files to computer
+2024-06-25 11:55:01  CROWAN-6905 Establishing PSSession to computer
+2024-06-25 11:55:02  CROWAN-6905 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:55:02  CROWAN-6905 Running setup.exe on computer
+2024-06-25 11:55:37  CROWAN-6905 setup.exe executed successfully on computer
+2024-06-25 11:55:37  JTHORNHILL-7799 Testing connection to computer
+2024-06-25 11:55:37  JTHORNHILL-7799 Connecting to computer
+2024-06-25 11:55:37  JTHORNHILL-7799 Checking if C:\temp directory exists on computer
+2024-06-25 11:55:38  JTHORNHILL-7799 Copying files to computer
+2024-06-25 11:55:50  JTHORNHILL-7799 Establishing PSSession to computer
+2024-06-25 11:55:52  JTHORNHILL-7799 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:55:53  JTHORNHILL-7799 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:55:53  KETHERIDGE-7209 Testing connection to computer
+2024-06-25 11:55:53  KETHERIDGE-7209 Connecting to computer
+2024-06-25 11:55:53  KETHERIDGE-7209 Checking if C:\temp directory exists on computer
+2024-06-25 11:55:53  KETHERIDGE-7209 Copying files to computer
+2024-06-25 11:55:55  KETHERIDGE-7209 Establishing PSSession to computer
+2024-06-25 11:55:58  KETHERIDGE-7209 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:55:58  KETHERIDGE-7209 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:55:58  KGEORGE1-7769 Testing connection to computer
+2024-06-25 11:55:58  KGEORGE1-7769 Connecting to computer
+2024-06-25 11:55:58  KGEORGE1-7769 Checking if C:\temp directory exists on computer
+2024-06-25 11:56:00  KGEORGE1-7769 Copying files to computer
+2024-06-25 11:56:19  KGEORGE1-7769 Establishing PSSession to computer
+2024-06-25 11:56:26  KGEORGE1-7769 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:56:28  KGEORGE1-7769 Running setup.exe on computer
+2024-06-25 11:56:45  KGEORGE1-7769 setup.exe executed successfully on computer
+2024-06-25 11:56:45  JTAUBMAN-7596 Testing connection to computer
+2024-06-25 11:56:49  JTAUBMAN-7596 Connection failed
+2024-06-25 11:56:49  PDEWYN-7121 Testing connection to computer
+2024-06-25 11:56:49  PDEWYN-7121 Connecting to computer
+2024-06-25 11:56:49  PDEWYN-7121 Checking if C:\temp directory exists on computer
+2024-06-25 11:56:49  PDEWYN-7121 Copying files to computer
+2024-06-25 11:57:06  PDEWYN-7121 Establishing PSSession to computer
+2024-06-25 11:57:08  PDEWYN-7121 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:57:09  PDEWYN-7121 Running setup.exe on computer
+2024-06-25 11:57:42  PDEWYN-7121 setup.exe executed successfully on computer
+2024-06-25 11:57:42  GPSASPLPR01 Testing connection to computer
+2024-06-25 11:57:42  GPSASPLPR01 Connecting to computer
+2024-06-25 11:57:42  GPSASPLPR01 Checking if C:\temp directory exists on computer
+2024-06-25 11:57:50  GPSASPLPR01 Creating C:\temp directory on computer
+PS>TerminatingError(New-Item): "The network path was not found"
+New-Item : The network path was not found
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1:26 char:13
++             New-Item -ItemType Directory -Path $tempDirectory | Out-N ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [New-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.NewItemCommand
+New-Item : The network path was not found
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1:26 char:13
++             New-Item -ItemType Directory -Path $tempDirectory | Out-N ...
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [New-Item], IOException
+    + FullyQualifiedErrorId : System.IO.IOException,Microsoft.PowerShell.Commands.NewItemCommand
+
+2024-06-25 11:57:50  GPSASPLPR01 Copying files to computer
+PS>TerminatingError(Copy-Item): "The network path was not found"
+2024-06-25 11:57:50  GPSASPLPR01 Error:
+2024-06-25 11:57:50  P01-WC-DSK-01 Testing connection to computer
+2024-06-25 11:57:50  P01-WC-DSK-01 Connecting to computer
+2024-06-25 11:57:50  P01-WC-DSK-01 Checking if C:\temp directory exists on computer
+2024-06-25 11:57:51  P01-WC-DSK-01 Copying files to computer
+2024-06-25 11:57:51  P01-WC-DSK-01 Establishing PSSession to computer
+2024-06-25 11:58:10  P01-WC-DSK-01 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:58:10  P01-WC-DSK-01 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:58:10  MMALONE-7537 Testing connection to computer
+2024-06-25 11:58:10  MMALONE-7537 Connecting to computer
+2024-06-25 11:58:10  MMALONE-7537 Checking if C:\temp directory exists on computer
+2024-06-25 11:58:11  MMALONE-7537 Copying files to computer
+2024-06-25 11:58:20  MMALONE-7537 Establishing PSSession to computer
+2024-06-25 11:58:24  MMALONE-7537 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-06-25 11:58:24  MMALONE-7537 Error: 'BigFix Agent (32 bit)' service already exists
+2024-06-25 11:58:24  P04-WC-DSK-03 Testing connection to computer
+2024-06-25 11:58:24  P04-WC-DSK-03 Connecting to computer
+2024-06-25 11:58:24  P04-WC-DSK-03 Checking if C:\temp directory exists on computer
+2024-06-25 11:58:25  P04-WC-DSK-03 Copying files to computer
+2024-06-25 11:58:25  P04-WC-DSK-03 Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [P04-WC-DSK-03] Connecting to remote server P04-WC-DSK-03 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:58:35  P04-WC-DSK-03 Error: -2144108526
+2024-06-25 11:58:35  MARTY Testing connection to computer
+2024-06-25 11:58:35  MARTY Connecting to computer
+2024-06-25 11:58:35  MARTY Checking if C:\temp directory exists on computer
+2024-06-25 11:58:35  MARTY Copying files to computer
+2024-06-25 11:58:36  MARTY Establishing PSSession to computer
+PS>TerminatingError(New-PSSession): "The running command stopped because the preference variable "ErrorActionPreference" or common parameter is set to Stop: [MARTY] Connecting to remote server MARTY failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic."
+2024-06-25 11:58:47  MARTY Error: -2144108526
+**********************
+Windows PowerShell transcript end
+End time: 20240625115847
+**********************
+**********************
+Windows PowerShell transcript start
+Start time: 20240729105209
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 6944
+PSVersion: 5.1.17763.6054
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.6054
+BuildVersion: 10.0.17763.6054
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2024-07-29 10:52:09  p01-wc-dsk-22 Testing connection to computer
+2024-07-29 10:52:09  p01-wc-dsk-22 Connecting to computer
+2024-07-29 10:52:09  p01-wc-dsk-22 Checking if C:\temp directory exists on computer
+2024-07-29 10:52:09  p01-wc-dsk-22 Copying files to computer
+2024-07-29 10:52:10  p01-wc-dsk-22 Establishing PSSession to computer
+2024-07-29 10:52:12  p01-wc-dsk-22 Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2024-07-29 10:52:12  p01-wc-dsk-22 Error: 'BigFix Agent (32 bit)' service already exists
+**********************
+Windows PowerShell transcript end
+End time: 20240729105212
+**********************

@@ -1,0 +1,96 @@
+[INFO] 2025-05-29 08:38:03 [NT_GENESCO\mbwolfe] Script started.
+[SUCCESS] 2025-05-29 08:38:03 [NT_GENESCO\mbwolfe] Added SMTP:test12392@journeys.com to test12392
+[INFO] 2025-05-29 08:38:03 [NT_GENESCO\mbwolfe] Script complete.
+[INFO] 2025-06-12 14:31:10 [NT_GENESCO\mbwolfe] Script started.
+[SUCCESS] 2025-06-12 14:31:13 [NT_GENESCO\mbwolfe] Added SMTP:tyoung1@journeys.com to tyoung1
+[INFO] 2025-06-12 14:31:13 [NT_GENESCO\mbwolfe] Script complete.
+[INFO] 2025-06-12 14:36:33 [NT_GENESCO\mbwolfe] Script started.
+[SUCCESS] 2025-06-12 14:36:33 [NT_GENESCO\mbwolfe] Added SMTP:kpeek@genesco.com to KPeek
+[INFO] 2025-06-12 14:36:33 [NT_GENESCO\mbwolfe] Script complete.
+[INFO] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Script started.
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:nsantoianni@genesco.com to nsantoianni
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:dedwards@journeys.com to dedwards
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:tganter@genesco.com to tganter
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:afrancisco@genesco.com to afrancisco
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:jmuniz@genesco.com to jmuniz
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:tgray@genesco.com to tgray
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:RHiggins@genesco.com to RHiggins
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:CStout@genesco.com to CStout
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:dsiegel@genesco.com to dsiegel
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:DBofenkamp@journeys.com to DBofenkamp
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:cfrench@journeys.com to cfrench
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:twoodall@journeys.com to twoodall
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:bhicks@journeys.com to bhicks
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:MRahimi@genesco.com to MRahimi
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:CCartmill@genesco.com to CCartmill
+[SUCCESS] 2025-06-12 14:39:53 [NT_GENESCO\mbwolfe] Added SMTP:TGeddis@genesco.com to TGeddis
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:MSuri@genesco.com to MSuri
+[ERROR] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Error processing gnguyen: Cannot find an object with identity: 'gnguyen' under: 'DC=genesco,DC=local'.
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:mamand@journeys.com to mamand
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:AHelwig@genesco.com to AHelwig
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:KWood@genesco.com to KWood
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:MFarley@genesco.com to MFarley
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:SPhalin@genesco.com to SPhalin
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:Cobaya@journeys.com to Cobaya
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:bhoffman@journeys.com to bhoffman
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:Rbryan@genesco.com to Rbryan
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:ldiaz@journeys.com to ldiaz
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:jmulero@journeys.com to jmulero
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:MLethio@genesco.com to MLethio
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:mgo@journeys.com to mgo
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:agray@journeys.com to agray
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:TShrivastava@genesco.com to TShrivastava
+[SUCCESS] 2025-06-12 14:39:54 [NT_GENESCO\mbwolfe] Added SMTP:sbarrs@journeys.com to sbarrs
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:dchamberlain@genesco.com to dchamberlain
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:csantaella@journeys.com to csantaella
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:MScott@journeys.com to MScott
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:MAchu@genesco.com to MAchu
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:HGonzalez@genesco.com to HGonzalez
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:EHarris@genesco.com to EHarris
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:CLeist@genesco.com to CLeist
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:jbogaerts@genesco.com to jbogaerts
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:Sdoren@journeys.com to Sdoren
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:srobichaud@genesco.com to srobichaud
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:ewalters@genesco.com to ewalters
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:palvarez@journeys.com to palvarez
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:AToro@genesco.com to AToro
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:dpriori@genesco.com to dpriori
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:TFlowers@journeys.com to TFlowers
+[SUCCESS] 2025-06-12 14:39:55 [NT_GENESCO\mbwolfe] Added SMTP:KBaird@journeys.com to KBaird
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:PWelsh@genesco.com to PWelsh
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:CGibson@journeys.com to CGibson
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:JKelly@journeys.com to JKelly
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:JBarton@genesco.com to JBarton
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:ACubelo@genesco.com to ACubelo
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:vboyd@genesco.com to vboyd
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:TOlson@genesco.com to TOlson
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:SLeslie@genesco.com to SLeslie
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:HJimenez@journeys.com to HJimenez
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:SFelsted@genesco.com to SFelsted
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:Lroi@littleburgundyshoes.com to Lroi
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:BBabb@genesco.com to BBabb
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:cnunez@genesco.com to cnunez
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:gherndon@genesco.com to gherndon
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:ECreel@journeys.com to ECreel
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:jberryman@littleburgundyshoes.com to jberryman
+[SUCCESS] 2025-06-12 14:39:56 [NT_GENESCO\mbwolfe] Added SMTP:tmarkham@genesco.com to tmarkham
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:KPolischuk@genesco.com to KPolischuk
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:NPrugh@genesco.com to NPrugh
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:MGunn@genesco.com to MGunn
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:amunoz@journeys.com to amunoz
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:skolic@genesco.com to skolic
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:lmaguffee@genesco.com to lmaguffee
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:ckrantz@genesco.com to ckrantz
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:jwright@littleburgundyshoes.com to jwright
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:EMuy@journeys.com to EMuy
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:WMartin@genesco.com to WMartin
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:TCindric@genesco.com to TCindric
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:KNowels@journeys.com to KNowels
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:ddesmet@genesco.com to ddesmet
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:AReale@journeys.com to AReale
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:TJones@genesco.com to TJones
+[SUCCESS] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Added SMTP:sgumphalwar@genesco.com to sgumphalwar
+[INFO] 2025-06-12 14:39:57 [NT_GENESCO\mbwolfe] Script complete.
+[INFO] 2025-07-09 15:32:00 [NT_GENESCO\mbwolfe] Script started.
+[SUCCESS] 2025-07-09 15:32:02 [NT_GENESCO\mbwolfe] Added SMTP:ALavallee@littleburgundyshoes.com to alavallee
+[INFO] 2025-07-09 15:32:02 [NT_GENESCO\mbwolfe] Script complete.
