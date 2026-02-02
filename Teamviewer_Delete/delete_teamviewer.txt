@@ -1,0 +1,120 @@
+# Define the path to your CSV file
+$csvFilePath = "$PSScriptRoot\file.csv"
+
+# Define the path for the log file
+$logFilePath = "$PSScriptRoot\teamviewer_deletion_log.txt"
+
+# Define the name of the executable to delete
+$executableName = "TeamViewer.exe"
+
+# Get the current user who is running the script
+$currentUser = [System.Security.Principal.WindowsIdentity]::GetCurrent().Name
+
+# Function to log messages with status, user, and timestamp
+function Write-Log {
+    param (
+        [string]$Message,
+        [string]$Status = "[INFO]" # Default status is INFO
+    )
+    $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+    $logEntry = "$timestamp $Status [$currentUser] $Message"
+    Add-Content -Path $logFilePath -Value $logEntry
+}
+
+# --- Script Start ---
+Write-Host "Starting TeamViewer deletion process..."
+Write-Host "Log file will be written to: $logFilePath"
+
+# Clear the log file if it exists from a previous run, or create it
+Clear-Content -Path $logFilePath -Force -ErrorAction SilentlyContinue | Out-Null
+Write-Log -Message "TeamViewer Deletion Log Started" -Status "[INFO]"
+
+# Check if the CSV file exists
+if (-not (Test-Path $csvFilePath)) {
+    $errorMessage = "Error: CSV file not found at '$csvFilePath'. Please ensure the file exists."
+    Write-Error $errorMessage
+    Write-Log -Message $errorMessage -Status "[ERROR]"
+    exit 1
+}
+
+# Import the CSV data
+try {
+    $computers = Import-Csv -Path $csvFilePath
+    Write-Log -Message "Successfully imported CSV file: $csvFilePath" -Status "[INFO]"
+}
+catch {
+    $errorMessage = "Error importing CSV file: $($_.Exception.Message)"
+    Write-Error $errorMessage
+    Write-Log -Message $errorMessage -Status "[ERROR]"
+    exit 1
+}
+
+# Loop through each computer in the CSV
+foreach ($computer in $computers) {
+    $computerName = $computer."Computer Name"
+    $installationPath = $computer."Installation Path"
+
+    # Skip if Computer Name or Installation Path is empty
+    if ([string]::IsNullOrWhiteSpace($computerName) -or [string]::IsNullOrWhiteSpace($installationPath)) {
+        $logMessage = "Skipping row due to missing 'Computer Name' or 'Installation Path'. Computer Name: '$computerName', Installation Path: '$installationPath'"
+        Write-Warning $logMessage
+        Write-Log -Message $logMessage -Status "[WARNING]"
+        continue
+    }
+
+    Write-Host "Processing computer: $computerName"
+    Write-Log -Message "Processing computer: $computerName" -Status "[INFO]"
+
+    # Convert local path (e.g., G:\Program Files) to UNC path (e.g., \\AVASISHT-7364\G$\Program Files)
+    # This assumes the drive letter is consistent and can be mapped to a share.
+    # For example, 'G:\' becomes 'G$' share.
+    $driveLetter = $installationPath.Substring(0, 1)
+    $relativePath = $installationPath.Substring(2) # Get path after drive letter and colon
+
+    # Construct the UNC path to the directory
+    # Example: \\AVASISHT-7364\G$\Program Files (x86)\TeamViewer
+    $uncDirectoryPath = "\\$computerName\$driveLetter`$$relativePath"
+
+    # Construct the full UNC path to the executable
+    $fullUncPath = Join-Path -Path $uncDirectoryPath -ChildPath $executableName
+
+    Write-Host "Attempting to delete: $fullUncPath"
+    Write-Log -Message "Attempting to delete '$executableName' from '$computerName' at '$fullUncPath'." -Status "[INFO]"
+
+    try {
+        # Attempt to delete the file
+        # -Force: Allows deletion of read-only files and files in use (if permissions allow)
+        # -Recurse: Not strictly needed for a single file, but good practice for directories
+        # -ErrorAction SilentlyContinue: Suppresses errors from Remove-Item itself, allowing us to catch them
+        Remove-Item -Path $fullUncPath -Force -ErrorAction SilentlyContinue -ErrorVariable deleteError
+
+        # Check if the item still exists after the attempt
+        if (-not (Test-Path $fullUncPath)) {
+            $logMessage = "Deleted '$executableName' from '$computerName' at '$fullUncPath'."
+            Write-Host "SUCCESS: $logMessage" -ForegroundColor Green
+            Write-Log -Message $logMessage -Status "[INFO]"
+        }
+        else {
+            # If Test-Path returns true, it means the file was not deleted.
+            # Check if there was a specific error from Remove-Item
+            if ($deleteError) {
+                $errorMessage = "Could not delete '$executableName' from '$computerName' at '$fullUncPath'. Error: $($deleteError[0].Exception.Message)"
+            } else {
+                $errorMessage = "Could not delete '$executableName' from '$computerName' at '$fullUncPath'. File still exists after attempt (no specific error reported by Remove-Item, possibly permission issue or file in use)."
+            }
+            Write-Error "FAILED: $errorMessage"
+            Write-Log -Message $errorMessage -Status "[ERROR]"
+        }
+    }
+    catch {
+        $errorMessage = "An unexpected error occurred while processing '$computerName' at '$fullUncPath'. Error: $($_.Exception.Message)"
+        Write-Error "FAILED: $errorMessage"
+        Write-Log -Message $errorMessage -Status "[ERROR]"
+    }
+    Write-Host "---"
+    Write-Log -Message "Finished processing computer: $computerName" -Status "[INFO]"
+}
+
+Write-Host "TeamViewer deletion process completed. Check '$logFilePath' for details."
+Write-Log -Message "TeamViewer Deletion Log Completed." -Status "[INFO]"
+# --- Script End ---

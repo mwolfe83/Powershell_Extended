@@ -1,0 +1,63 @@
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] TeamViewer Deletion Log Started
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] Successfully imported CSV file: \\p01-wf-tch-01\data$\Marshall\Scripts\Teamviewer_Delete\file.csv
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] Processing computer: P04-WC-DSK-03
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'P04-WC-DSK-03' at '\\P04-WC-DSK-03\C$\Users\Public\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'P04-WC-DSK-03' at '\\P04-WC-DSK-03\C$\Users\Public\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: P04-WC-DSK-03
+2025-06-02 12:23:00 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SNDPERFTEST4
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SNDPERFTEST4' at '\\SNDPERFTEST4\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SNDPERFTEST4' at '\\SNDPERFTEST4\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SNDPERFTEST4
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SNDPERFTEST6
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SNDPERFTEST6' at '\\SNDPERFTEST6\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SNDPERFTEST6' at '\\SNDPERFTEST6\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SNDPERFTEST6
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SNDPERFTEST2
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SNDPERFTEST2' at '\\SNDPERFTEST2\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SNDPERFTEST2' at '\\SNDPERFTEST2\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SNDPERFTEST2
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SNDPERFTEST1
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SNDPERFTEST1' at '\\SNDPERFTEST1\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SNDPERFTEST1' at '\\SNDPERFTEST1\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SNDPERFTEST1
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SNDPERFTEST3
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SNDPERFTEST3' at '\\SNDPERFTEST3\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SNDPERFTEST3' at '\\SNDPERFTEST3\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SNDPERFTEST3
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SNDPERFTEST5
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SNDPERFTEST5' at '\\SNDPERFTEST5\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SNDPERFTEST5' at '\\SNDPERFTEST5\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SNDPERFTEST5
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Processing computer: LOBBY-6924
+2025-06-02 12:23:01 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'LOBBY-6924' at '\\LOBBY-6924\C$\Users\Lobby\Desktop\TeamViewerPortable\TeamViewer.exe'.
+2025-06-02 12:23:02 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'LOBBY-6924' at '\\LOBBY-6924\C$\Users\Lobby\Desktop\TeamViewerPortable\TeamViewer.exe'.
+2025-06-02 12:23:02 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: LOBBY-6924
+2025-06-02 12:23:02 [INFO] [NT_GENESCO\mbwolfe] Processing computer: DCASTNER-6132
+2025-06-02 12:23:02 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'DCASTNER-6132' at '\\DCASTNER-6132\D$\dcastner\Downloads\TeamViewer.exe'.
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'DCASTNER-6132' at '\\DCASTNER-6132\D$\dcastner\Downloads\TeamViewer.exe'.
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: DCASTNER-6132
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Processing computer: USERSUPPORT
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'USERSUPPORT' at '\\USERSUPPORT\D$\Data\Source\Teamviewer\TeamViewerPortable\TeamViewer.exe'.
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'USERSUPPORT' at '\\USERSUPPORT\D$\Data\Source\Teamviewer\TeamViewerPortable\TeamViewer.exe'.
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: USERSUPPORT
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Processing computer: CHAPELPWR-5388
+2025-06-02 12:23:17 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'CHAPELPWR-5388' at '\\CHAPELPWR-5388\C$\Users\Power\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:19 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'CHAPELPWR-5388' at '\\CHAPELPWR-5388\C$\Users\Power\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:19 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: CHAPELPWR-5388
+2025-06-02 12:23:19 [INFO] [NT_GENESCO\mbwolfe] Processing computer: JDC-FEDEX
+2025-06-02 12:23:19 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'JDC-FEDEX' at '\\JDC-FEDEX\C$\Users\jrutledge\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'JDC-FEDEX' at '\\JDC-FEDEX\C$\Users\jrutledge\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: JDC-FEDEX
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Processing computer: JDC-FEDEX
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'JDC-FEDEX' at '\\JDC-FEDEX\C$\Users\alingnau\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'JDC-FEDEX' at '\\JDC-FEDEX\C$\Users\alingnau\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: JDC-FEDEX
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Processing computer: SMCCORMICK-7461
+2025-06-02 12:23:20 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'SMCCORMICK-7461' at '\\SMCCORMICK-7461\C$\Users\srobertson\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'SMCCORMICK-7461' at '\\SMCCORMICK-7461\C$\Users\srobertson\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: SMCCORMICK-7461
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] Processing computer: P01-WC-DSK-22
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] Attempting to delete 'TeamViewer.exe' from 'P01-WC-DSK-22' at '\\P01-WC-DSK-22\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] Deleted 'TeamViewer.exe' from 'P01-WC-DSK-22' at '\\P01-WC-DSK-22\C$\Users\HD\Desktop\TeamViewer.exe'.
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] Finished processing computer: P01-WC-DSK-22
+2025-06-02 12:23:23 [INFO] [NT_GENESCO\mbwolfe] TeamViewer Deletion Log Completed.
