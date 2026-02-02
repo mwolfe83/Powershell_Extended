@@ -1,0 +1,126 @@
+30096:4d2c 15:29:32.831 Removing selected product: Kaspersky Endpoint Security 11 - 11.9 for Windows.
+30096:4d2c 15:29:33.175 removing Kaspersky Endpoint Security 11 - 11.9 for Windows...
+30096:4d2c 15:29:34.456 x64 utility run (exit code = 2), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove vbs "param"
+30096:4d2c 15:29:36.987 x64 utility run (exit code = 2), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove vbs "param"
+30096:4d2c 15:29:38.065 x64 utility run (exit code = 2), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove vbs "param"
+30096:4d2c 15:32:49.429 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\basegui.ppl", return code 3
+30096:4d2c 15:32:49.489 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\mcou.dll", return code 3
+30096:4d2c 15:32:49.561 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\kav.bav", return code 3
+30096:4d2c 15:32:52.873 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\shellex.dll", return code 3
+30096:4d2c 15:32:53.492 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\x64\ShellEx.dll", return code 3
+30096:4d2c 15:32:54.204 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\x64\mcou.dll", return code 3
+30096:4d2c 15:32:54.551 Command executed: regsvr32.exe /u /s C:\WINDOWS\System32\klhkum.dll, return code 3
+30096:4d2c 15:32:55.178 Service info from group order list removed: klif
+30096:4d2c 15:32:55.178 Service info from group order list removed: klfltdev
+30096:4d2c 15:32:55.249 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klif.sys
+30096:4d2c 15:32:55.257 File deleted: C:\WINDOWS\system32\DRIVERS\klif.sys
+30096:4d2c 15:32:55.259 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klfltdev.sys
+30096:4d2c 15:32:55.270 File deleted: C:\WINDOWS\system32\DRIVERS\klfltdev.sys
+30096:4d2c 15:32:55.277 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klpnpflt.sys
+30096:4d2c 15:32:55.279 File deleted: C:\WINDOWS\system32\DRIVERS\klpnpflt.sys
+30096:4d2c 15:32:55.290 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klpd.sys
+30096:4d2c 15:32:55.350 File deleted: C:\WINDOWS\system32\DRIVERS\klpd.sys
+30096:4d2c 15:32:55.401 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klif.sys
+30096:4d2c 15:32:55.452 File deleted: C:\WINDOWS\system32\DRIVERS\klif.sys
+30096:4d2c 15:32:55.462 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klfltdev.sys
+30096:4d2c 15:32:55.462 File deleted: C:\WINDOWS\system32\DRIVERS\klfltdev.sys
+30096:4d2c 15:32:55.552 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klbackupdisk.sys
+30096:4d2c 15:32:55.554 File deleted: C:\WINDOWS\system32\DRIVERS\klbackupdisk.sys
+30096:4d2c 15:32:55.635 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klbackupflt.sys
+30096:4d2c 15:32:55.645 File deleted: C:\WINDOWS\system32\DRIVERS\klbackupflt.sys
+30096:4d2c 15:32:55.645 Service info from group order list removed: klwfp
+30096:4d2c 15:32:59.981 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove network-component "kl_klim6"
+30096:4d2c 15:32:59.981 Network component removed: kl_klim6
+30096:4d2c 15:33:01.786 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove network-component "klim6"
+30096:4d2c 15:33:01.786 Network component removed: klim6
+30096:4d2c 15:33:03.127 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove network-component "kl_klim5"
+30096:4d2c 15:33:03.127 Network component removed: kl_klim5
+30096:4d2c 15:33:04.869 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\act8C8E.tmp" remove network-component "klim5"
+30096:4d2c 15:33:04.869 Network component removed: klim5
+30096:4d2c 15:33:04.951 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klflt.sys
+30096:4d2c 15:33:04.951 File deleted: C:\WINDOWS\system32\DRIVERS\klflt.sys
+30096:4d2c 15:33:04.971 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klflt.sys
+30096:4d2c 15:33:05.001 File deleted: C:\WINDOWS\system32\DRIVERS\klflt.sys
+30096:4d2c 15:33:05.011 File will be deleted on reboot: C:\WINDOWS\system32\DRIVERS\klwfp.sys
+30096:4d2c 15:33:05.052 File deleted: C:\WINDOWS\system32\DRIVERS\klwfp.sys
+30096:4d2c 15:33:08.547 File will be deleted on reboot: C:\WINDOWS\system32\drivers\klflt.sys
+30096:4d2c 15:33:08.555 File deleted: C:\WINDOWS\system32\drivers\klflt.sys
+30096:4d2c 15:33:08.961 File deleted: C:\WINDOWS\system32\drivers\klim6.sys
+30096:4d2c 15:33:09.022 File will be deleted on reboot: C:\WINDOWS\system32\drivers\klwfp.sys
+30096:4d2c 15:33:09.032 File deleted: C:\WINDOWS\system32\drivers\klwfp.sys
+30096:4d2c 15:33:09.123 File deleted: C:\WINDOWS\System32\drivers\klupd_KLIF_arkmon.sys
+30096:4d2c 15:33:09.214 File deleted: C:\WINDOWS\System32\drivers\klupd_KLIF_klbg.sys
+30096:4d2c 15:33:09.296 File will be deleted on reboot: C:\WINDOWS\System32\drivers\klupd_KLIF_mark.sys
+30096:4d2c 15:33:09.357 File deleted: C:\WINDOWS\System32\drivers\klupd_KLIF_mark.sys
+30096:4d2c 15:33:09.498 File deleted: C:\WINDOWS\System32\drivers\klupd_KLIF_swmon.sys
+30096:4d2c 15:33:09.539 File will be deleted on reboot: C:\WINDOWS\System32\drivers\klupd_KLIF_klark.sys
+30096:4d2c 15:33:09.559 File deleted: C:\WINDOWS\System32\drivers\klupd_KLIF_klark.sys
+30096:4d2c 15:33:10.773 Folder will be deleted on reboot: C:\Program Files (x86)\Common Files\Kaspersky Lab
+30096:4d2c 15:33:11.349 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klflt\Parameters\ClientData
+30096:4d2c 15:33:11.410 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klflt\Parameters\CollectionData
+30096:4d2c 15:33:11.410 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klflt\Parameters\KDSData
+30096:4d2c 15:33:11.410 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klflt\Parameters\OptionData
+30096:4d2c 15:33:11.410 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klflt\Parameters
+30096:4d2c 15:33:11.410 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klflt
+30096:4d2c 15:33:11.418 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\Klwfp\Parameters
+30096:4d2c 15:33:11.418 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\Klwfp
+30096:4d2c 15:33:11.438 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\klpd
+30096:4d2c 15:33:11.906 Registry key deleted (x64=0): SYSTEM\CurrentControlSet\Services\EventLog\Kaspersky Endpoint Security\avp
+30096:4d2c 15:33:31.792 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{43338FB7-0141-4f90-9789-094256BEC456}
+30096:4d2c 15:33:31.833 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}\Implemented Categories\{56FFCC30-D398-11D0-B2AE-00A0C908FA49}
+30096:4d2c 15:33:31.833 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}\Implemented Categories
+30096:4d2c 15:33:31.916 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}\InprocServer32
+30096:4d2c 15:33:31.924 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}\TypeLib
+30096:4d2c 15:33:31.926 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}\Version
+30096:4d2c 15:33:31.926 Registry key deleted (x64=0): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}
+30096:4d2c 15:33:31.926 Registry key deleted (x64=1): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}\Implemented Categories
+30096:4d2c 15:33:31.934 Registry key deleted (x64=1): SOFTWARE\Classes\CLSID\{385E7351-2C55-4906-AF67-81F04B5C93AF}
+30096:4d2c 15:33:32.077 Registry key deleted (x64=0): CLSID\{CA08D18F-7531-4243-BB89-8FEDDD2C6F97}\LocalServer32
+30096:4d2c 15:33:32.085 Registry key deleted (x64=0): CLSID\{CA08D18F-7531-4243-BB89-8FEDDD2C6F97}
+30096:4d2c 15:33:32.300 Registry key deleted (x64=0): TypeLib\{788DD008-25E8-4E76-A3CF-7689D6F00576}\1.0\0\win32
+30096:4d2c 15:33:32.300 Registry key deleted (x64=0): TypeLib\{788DD008-25E8-4E76-A3CF-7689D6F00576}\1.0\0
+30096:4d2c 15:33:32.341 Registry key deleted (x64=0): TypeLib\{788DD008-25E8-4E76-A3CF-7689D6F00576}\1.0\FLAGS
+30096:4d2c 15:33:32.349 Registry key deleted (x64=0): TypeLib\{788DD008-25E8-4E76-A3CF-7689D6F00576}\1.0\HELPDIR
+30096:4d2c 15:33:32.349 Registry key deleted (x64=0): TypeLib\{788DD008-25E8-4E76-A3CF-7689D6F00576}\1.0
+30096:4d2c 15:33:32.349 Registry key deleted (x64=0): TypeLib\{788DD008-25E8-4E76-A3CF-7689D6F00576}
+30096:4d2c 15:33:32.351 Registry key deleted (x64=1): Interface\{09899249-4B52-4ACE-808D-F761D51BD5E5}\ProxyStubClsid32
+30096:4d2c 15:33:32.351 Registry key deleted (x64=1): Interface\{09899249-4B52-4ACE-808D-F761D51BD5E5}\TypeLib
+30096:4d2c 15:33:32.351 Registry key deleted (x64=1): Interface\{09899249-4B52-4ACE-808D-F761D51BD5E5}
+30096:4d2c 15:33:32.381 Registry key deleted (x64=1): Interface\{1EFD6E33-39C2-43CD-A8D8-BD2E77B8A8B9}\ProxyStubClsid32
+30096:4d2c 15:33:32.381 Registry key deleted (x64=1): Interface\{1EFD6E33-39C2-43CD-A8D8-BD2E77B8A8B9}\TypeLib
+30096:4d2c 15:33:32.389 Registry key deleted (x64=1): Interface\{1EFD6E33-39C2-43CD-A8D8-BD2E77B8A8B9}
+30096:4d2c 15:33:32.391 Registry key deleted (x64=1): Interface\{771A6408-F351-49C2-86B0-0F7BD68FF70A}\ProxyStubClsid32
+30096:4d2c 15:33:32.391 Registry key deleted (x64=1): Interface\{771A6408-F351-49C2-86B0-0F7BD68FF70A}\TypeLib
+30096:4d2c 15:33:32.391 Registry key deleted (x64=1): Interface\{771A6408-F351-49C2-86B0-0F7BD68FF70A}
+30096:4d2c 15:33:33.404 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klif\Instances\KLIF
+30096:4d2c 15:33:33.404 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klif\Instances
+30096:4d2c 15:33:33.404 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klif\Parameters\-989874173
+30096:4d2c 15:33:33.414 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klif\Parameters\110601899
+30096:4d2c 15:33:33.414 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klif\Parameters
+30096:4d2c 15:33:33.414 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klif
+30096:4d2c 15:33:33.434 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klfltdev\Parameters
+30096:4d2c 15:33:33.434 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klfltdev\Enum
+30096:4d2c 15:33:33.434 Registry key deleted (x64=1): SYSTEM\ControlSet001\Services\klfltdev
+30096:4d2c 15:33:33.489 Registry key deleted (x64=1): SOFTWARE\Microsoft\Exchange\Client\Extensions
+30096:4d2c 15:33:33.505 Registry key deleted (x64=1): SOFTWARE\Microsoft\Exchange\Client
+30096:4d2c 15:33:33.535 Registry key deleted (x64=1): SOFTWARE\Microsoft\Exchange
+30096:4d2c 15:33:45.815 Folder will be deleted on reboot: C:\WINDOWS\ELAMBKUP
+30096:4d2c 15:33:45.825 Folder will be deleted on reboot: C:\Program Files (x86)\Kaspersky Lab
+30096:4d2c 15:33:45.975 WFP filters removed
+30096:4d2c 15:33:49.893 Registry key deleted (x64=1): SOFTWARE\Microsoft\RADAR\HeapLeakDetection\DiagnosedApplications\avp.exe
+30096:4d2c 15:33:50.075 Registry key deleted (x64=1): SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Components\7BF83334141009F47998902465EB4C65
+30096:4d2c 15:33:50.358 File deleted: C:\WINDOWS\Installer\{1F39E63E-3F9C-4E21-928B-136C6362E88B}\ProductShortcutIcon
+30096:4d2c 15:33:50.358 Folder deleted: C:\WINDOWS\Installer\{1F39E63E-3F9C-4E21-928B-136C6362E88B}
+30096:4d2c 15:33:52.271 Folder will be deleted on reboot: C:\WINDOWS\ELAMBKUP
+30096:4d2c 15:33:52.277 Folder will be deleted on reboot: C:\Program Files (x86)\Kaspersky Lab
+30096:4d2c 15:33:52.390 WFP filters removed
+30096:4d2c 15:33:54.950 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES
+30096:4d2c 15:33:55.000 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES\Temp
+30096:4d2c 15:34:41.329 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\SSO
+30096:4d2c 15:34:41.331 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab
+30096:4d2c 15:34:41.341 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES\KES\QB
+30096:4d2c 15:34:41.341 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES
+30096:4d2c 15:34:41.351 Folder will be deleted on reboot (depth=0): C:\Users\AllUsers\KasperskyLab\KES
+30096:4d2c 15:34:41.351 Folder will be deleted on reboot (depth=0): C:\Users\AllUsers\KasperskyLab
+30096:4d2c 15:34:41.351 Registry dword value set (x64=1): HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WinDefend
+30096:4d2c 15:34:41.361 remove complete

@@ -1,0 +1,2 @@
+NodeName,NodeIPAddress,Site,Stakeholder,Poller,PollingMethod
+awsd0303r02,10.188.80.69,Store Dev - 8880,Store Devices,2,SNMP

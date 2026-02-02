@@ -1,0 +1,35 @@
+17952:60cc 10:23:35.515 KAVRemover tool version 1.0.3666
+17952:60cc 10:23:35.520 System language detected: langID=9, sublangID=1
+17952:60cc 10:23:35.520 User language detected: langID=9, sublangID=1
+17952:60cc 10:23:35.520 Setting UI language: langID=9, sublangID=2
+17952:60cc 10:23:35.520 Locale successfully set
+17952:60cc 10:23:35.534 dbghelp.dll dumped OK
+17952:60cc 10:23:38.339 Binary file dumped
+17952:60cc 10:23:38.997 ServiceHelper::WaitForServiceStatus
+17952:60cc 10:23:38.998 Still waiting for 4
+17952:60cc 10:23:40.007 Service start return code = 1
+17952:60cc 10:23:40.008 handle does init
+17952:60cc 10:23:40.010 Dumping user environment...
+17952:60cc 10:23:40.011 Dumping current environment...
+17952:60cc 10:23:40.012 CreateFileA () failed, error 3
+17952:60cc 10:23:40.012 Client malloc
+17952:60cc 10:23:40.012 Try to set user environment to server...
+17952:60cc 10:23:40.017 After call, error = 3, ret code = 0)
+17952:60cc 10:23:40.018 Client free
+17952:4578 10:23:40.074 Searching for installed products...
+17952:4578 10:23:40.076 Try to call some func on server...
+17952:4578 10:23:40.085 Client malloc
+17952:4578 10:23:40.086 After call, error = 0, ret code = 0)
+17952:4578 10:23:40.087 Client free
+17952:4578 10:23:40.088 Try to call detection, no-detect=%d, remove-all=0...
+17952:4578 10:23:40.789 Client malloc
+17952:4578 10:23:40.789 After call detection, error = 0, ret code = 0)
+17952:4578 10:23:40.790 Client free
+17952:4578 10:23:40.790 Processing additional info...
+17952:4578 10:23:40.790 Post message about detected products. Nothing detected
+17952:60cc 10:24:08.538 Try to restore system environment on server...
+17952:60cc 10:24:08.539 After call, error = 0, ret code = 0)
+17952:60cc 10:24:08.539 Current ServiceState is '4'
+17952:60cc 10:24:08.657 ServiceHelper::WaitForServiceStatus
+17952:60cc 10:24:08.657 Still waiting for 1
+17952:60cc 10:24:09.671 Stopped, try to remove

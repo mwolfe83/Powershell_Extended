@@ -1,0 +1,12 @@
+﻿NodeName,NodeIPAddress,Site,Stakeholder,Poller,PollingMethod
+awsq5037r02,10.188.91.71,Store Dev - 8880,Store Devices,2,SNMP
+awsq1133r01,10.188.91.83,Store Dev - 8880,Store Devices,2,SNMP
+awsq0921r02,10.188.92.69,Store Dev - 8880,Store Devices,2,SNMP
+awsq6233r01,10.188.92.72,Store Dev - 8880,Store Devices,2,SNMP
+awsq1823r01,10.188.92.83,Store Dev - 8880,Store Devices,2,SNMP
+awsq5056r01,10.188.97.73,Store Dev - 8880,Store Devices,2,SNMP
+awsq5008r01,10.188.95.72,Store Dev - 8880,Store Devices,2,SNMP
+awsq1956r01,10.188.95.80,Store Dev - 8880,Store Devices,2,SNMP
+awsq1401r01,10.188.95.83,Store Dev - 8880,Store Devices,2,SNMP
+awsd5017r01,10.188.81.79,Store Dev - 8880,Store Devices,2,SNMP
+awsq7033r01,10.188.84.82,Store Dev - 8880,Store Devices,2,SNMP

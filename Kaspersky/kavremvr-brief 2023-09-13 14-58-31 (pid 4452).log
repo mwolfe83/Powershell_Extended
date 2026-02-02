@@ -1,0 +1,34 @@
+4452:1154 14:58:58.656 Removing selected product: Kaspersky Endpoint Security 12.2 for Windows.
+4452:1154 14:58:58.818 removing Kaspersky Endpoint Security 12.2 for Windows...
+4452:1154 14:58:58.974 x64 utility run (exit code = 2), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove vbs "param"
+4452:1154 14:58:59.135 x64 utility run (exit code = 2), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove vbs "param"
+4452:1154 14:58:59.263 x64 utility run (exit code = 2), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove vbs "param"
+4452:1154 14:59:14.607 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\basegui.ppl", return code 3
+4452:1154 14:59:14.633 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\mcou.dll", return code 3
+4452:1154 14:59:14.659 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\kav.bav", return code 3
+4452:1154 14:59:14.688 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\shellex.dll", return code 3
+4452:1154 14:59:14.725 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\x64\ShellEx.dll", return code 3
+4452:1154 14:59:14.753 Command executed: regsvr32.exe /u /s "C:\Program Files (x86)\Kaspersky Lab\Kaspersky Endpoint Security for Windows\x64\mcou.dll", return code 3
+4452:1154 14:59:14.780 Command executed: regsvr32.exe /u /s C:\Windows\System32\klhkum.dll, return code 3
+4452:1154 14:59:14.820 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove network-component "kl_klim6"
+4452:1154 14:59:14.820 Network component removed: kl_klim6
+4452:1154 14:59:14.854 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove network-component "klim6"
+4452:1154 14:59:14.854 Network component removed: klim6
+4452:1154 14:59:14.887 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove network-component "kl_klim5"
+4452:1154 14:59:14.887 Network component removed: kl_klim5
+4452:1154 14:59:14.919 x64 utility run (exit code = 0), cmd: "C:\Users\mbwolfe\AppData\Local\Temp\2\actAACF.tmp" remove network-component "klim5"
+4452:1154 14:59:14.920 Network component removed: klim5
+4452:1154 14:59:15.709 Folder will be deleted on reboot: C:\Program Files (x86)\Kaspersky Lab
+4452:1154 14:59:15.717 WFP filters removed
+4452:1154 14:59:15.905 Folder will be deleted on reboot: C:\Program Files (x86)\Kaspersky Lab
+4452:1154 14:59:15.916 WFP filters removed
+4452:1154 14:59:16.017 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES.21.14
+4452:1154 14:59:16.017 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES.21.14\Temp
+4452:1154 14:59:16.586 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\SSO
+4452:1154 14:59:16.586 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab
+4452:1154 14:59:16.586 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES.21.14\KES.21.14\QB
+4452:1154 14:59:16.586 Folder will be deleted on reboot (depth=0): C:\ProgramData\Kaspersky Lab\KES.21.14
+4452:1154 14:59:16.586 Folder will be deleted on reboot (depth=0): C:\Users\AllUsers\KasperskyLab\KES.21.14
+4452:1154 14:59:16.586 Folder will be deleted on reboot (depth=0): C:\Users\AllUsers\KasperskyLab
+4452:1154 14:59:16.622 Registry dword value set (x64=1): HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\WinDefend
+4452:1154 14:59:16.623 remove complete

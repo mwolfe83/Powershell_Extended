@@ -1,0 +1,49 @@
+1488:1a74 14:58:24.506 KAVRemover tool version 1.0.3666
+1488:1a74 14:58:24.507 System language detected: langID=9, sublangID=1
+1488:1a74 14:58:24.507 User language detected: langID=9, sublangID=1
+1488:1a74 14:58:24.507 Setting UI language: langID=9, sublangID=2
+1488:1a74 14:58:24.507 Locale successfully set
+1488:1a74 14:58:24.510 dbghelp.dll dumped OK
+1488:1a74 14:58:31.754 Binary file dumped
+1488:1a74 14:58:31.809 ServiceHelper::WaitForServiceStatus
+1488:1a74 14:58:31.810 Still waiting for 4
+1488:1a74 14:58:32.810 Service start return code = 1
+1488:1a74 14:58:32.810 handle does init
+1488:1a74 14:58:32.811 Dumping user environment...
+1488:1a74 14:58:32.811 Dumping current environment...
+1488:1a74 14:58:32.811 CreateFileA () failed, error 3
+1488:1a74 14:58:32.811 Client malloc
+1488:1a74 14:58:32.811 Try to set user environment to server...
+1488:1a74 14:58:32.813 After call, error = 6, ret code = 0)
+1488:1a74 14:58:32.813 Client free
+1488:191c 14:58:32.831 Searching for installed products...
+1488:191c 14:58:32.832 Try to call some func on server...
+1488:191c 14:58:32.836 Client malloc
+1488:191c 14:58:32.837 After call, error = 0, ret code = 0)
+1488:191c 14:58:32.838 Client free
+1488:191c 14:58:32.838 Try to call detection, no-detect=%d, remove-all=0...
+1488:191c 14:58:33.482 Client malloc
+1488:191c 14:58:33.482 After call detection, error = 0, ret code = 0)
+1488:191c 14:58:33.484 Client free
+1488:191c 14:58:33.484 Processing additional info...
+1488:191c 14:58:33.484 Post message about detected products. Nothing detected
+1488:1a74 14:58:58.654 Try to validate user input...
+1488:1a74 14:58:58.654 After call, error = 0, ret code = 0)
+1488:1578 14:58:58.655 Client malloc
+1488:1578 14:58:58.655 Client malloc
+1488:1578 14:58:58.655 Client malloc
+1488:1578 14:58:58.655 Client malloc
+1488:1578 14:58:58.655 Client malloc
+1488:1578 14:58:58.655 Try to call removing...
+1488:1578 14:59:16.624 After call removing, error = 0, ret code = 0)
+1488:1578 14:59:16.625 Client free
+1488:1578 14:59:16.625 Client free
+1488:1578 14:59:16.625 Client free
+1488:1578 14:59:16.625 Client free
+1488:1578 14:59:16.625 Remove finished successfully
+1488:1a74 14:59:31.340 Try to restore system environment on server...
+1488:1a74 14:59:31.357 After call, error = 0, ret code = 0)
+1488:1a74 14:59:31.357 Current ServiceState is '4'
+1488:1a74 14:59:31.406 ServiceHelper::WaitForServiceStatus
+1488:1a74 14:59:31.406 Still waiting for 1
+1488:1a74 14:59:32.406 Stopped, try to remove

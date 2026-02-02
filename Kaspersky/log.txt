@@ -1,0 +1,627 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20230720131853
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-01 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell_ISE.exe
+Process ID: 11484
+PSVersion: 5.1.17763.4644
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4644
+BuildVersion: 10.0.17763.4644
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2023-07-20 13:18:53  p01-wa-wrk-03 Kaspersky software not found. Skipping uninstallation.
+PS C:\Users\mbwolfe> $appguid
+2023-07-20 14:01:03  D01-WA-SBM-01 Kaspersky software not found. Skipping uninstallation.
+PS C:\Users\mbwolfe> Enter-PSSession d01-wa-sbm-01
+PS C:\Users\mbwolfe> \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1:64 char:9
++     else (appguid.guid = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
++         ~
+Missing statement block after 'else' keyword.
+
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1:64 char:66
++     else (appguid.guid = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
++                                                                  ~
+Missing closing ')' in expression.
+
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1:66 char:5
++     if ($appguid) {
++     ~~
+Unexpected token 'if' in expression or statement.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingStatementBlockAfterElse
+
+PS C:\Users\mbwolfe> \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1:64 char:9
++     else (appguid.guid = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}")
++         ~
+Missing statement block after 'else' keyword.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingStatementBlockAfterElse
+
+PS C:\Users\mbwolfe> \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1:64 char:71
++ ...   elseif ($appguid.guid -eq "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}")
++                                                                         ~
+Missing statement block after elseif ( condition ).
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingStatementBlock
+
+PS C:\Users\mbwolfe> \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1
+At \\p01-wf-tch-01\data$\Marshall\Scripts\Kaspersky\Uninstall-Kaspersky.ps1:64 char:69
++     elseif ($appguid.guid = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}")
++                                                                     ~
+Missing statement block after elseif ( condition ).
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingStatementBlock
+
+2023-07-20 14:10:29  D01-WA-SBM-01 Kaspersky software not found. Skipping uninstallation.
+PS C:\Users\mbwolfe> Enter-PSSession
+2023-07-20 14:21:09  D01-WA-SBM-01 Kaspersky software not found. Skipping uninstallation.
+PS C:\Users\mbwolfe> $appguid
+PS C:\Users\mbwolfe> $appguid.name
+PS C:\Users\mbwolfe> $appguid.name = Get-InstalledSoftware -Name "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
+The property 'name' cannot be found on this object. Verify that the property exists and can be set.
+At line:1 char:1
++ $appguid.name = Get-InstalledSoftware -Name "{93EDBC7E-D73F-4401-84A5 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'name' cannot be found on this object. Verify that the property exists and can be set.
+At line:1 char:1
++ $appguid.name = Get-InstalledSoftware -Name "{93EDBC7E-D73F-4401-84A5 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+PS C:\Users\mbwolfe> $appguid.name = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
+The property 'name' cannot be found on this object. Verify that the property exists and can be set.
+At line:1 char:1
++ $appguid.name = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+The property 'name' cannot be found on this object. Verify that the property exists and can be set.
+At line:1 char:1
++ $appguid.name = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) [], RuntimeException
+    + FullyQualifiedErrorId : PropertyNotFound
+
+PS C:\Users\mbwolfe> # Create a custom PowerShell object with a 'name' property
+$appguid = New-Object PSObject -Property @{
+    name = "{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}"
+}
+
+# Verify the content of $appguid
+$appguid
+
+
+name
+----
+{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}
+
+
+PS C:\Users\mbwolfe> $appguid.name
+{93EDBC7E-D73F-4401-84A5-79E8CBB8B843}
+2023-07-20 14:30:36  D01-WA-SBM-01 Found Guid
+2023-07-20 14:30:37  D01-WA-SBM-01 Uninstall Failed with Exit Code 1619
+PS C:\Users\mbwolfe> Enter-PSSession D01-WA-UAR-01
+2023-07-21 10:42:19  D01-WA-WHL-02 Found Guid
+2023-07-21 10:42:20  D01-WA-WHL-02 Uninstall Failed with Exit Code 1619
+PS C:\Users\mbwolfe> Enter-PSSession D01-WA-WHL-02
+2023-07-21 11:36:13  SABATCHDEV Testing connection to computer
+2023-07-21 11:36:14  SABATCHDEV Connecting to computer
+2023-07-21 11:36:14  SABATCHDEV Checking if C:\temp directory exists on computer
+2023-07-21 11:36:14  SABATCHDEV Copying files to computer
+2023-07-21 11:36:15  SABATCHDEV Establishing PSSession to computer
+2023-07-21 11:36:16  SABATCHDEV Verifying service 'BigFix Agent (32 bit)' doesn't exist
+2023-07-21 11:36:16  SABATCHDEV Running setup.exe on computer
+PS C:\Users\mbwolfe> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+2023-07-21 15:43:30  d01-wc-fax-01 Testing connection to computer
+2023-07-21 15:43:32  d01-wc-fax-01 Connection failed
+2023-07-21 15:43:32  d01-wc-fax-02 Testing connection to computer
+2023-07-21 15:43:35  d01-wc-fax-02 Connection failed
+Transcript stopped, output file is \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\log.txt
+PS C:\Users\mbwolfe> ping d01-wc-fax-01
+Ping request could not find host d01-wc-fax-01. Please check the name and try again.
+**********************
+Windows PowerShell transcript start
+Start time: 20230914084042
+Username: NT_GENESCO\mbwolfe
+RunAs User: NT_GENESCO\mbwolfe
+Configuration Name: 
+Machine: P01-WA-WRK-02 (Microsoft Windows NT 10.0.17763.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell_ise.exe \\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent\pushinstaller.ps1
+Process ID: 6840
+PSVersion: 5.1.17763.4720
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.17763.4720
+BuildVersion: 10.0.17763.4720
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+2023-09-14 08:40:42  RHINES-7212 Found Guid
+2023-09-14 08:40:44  RHINES-7212 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:44  SARRINGTON-7688 Found Guid
+2023-09-14 08:40:45  SARRINGTON-7688 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:45  P04-WC-DSK-19 Found Guid
+2023-09-14 08:40:46  P04-WC-DSK-19 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:46  JYCSR-6766 Found Guid
+2023-09-14 08:40:47  JYCSR-6766 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:47  JMDIRECT-6610 Found Guid
+2023-09-14 08:40:48  JMDIRECT-6610 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:48  JJOHNSON1-7952 Found Guid
+2023-09-14 08:40:49  JJOHNSON1-7952 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:49  BJONES2-7948 Found Guid
+2023-09-14 08:40:50  BJONES2-7948 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:50  FAY-5922 Found Guid
+2023-09-14 08:40:51  FAY-5922 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:51  JDC-7851 Found Guid
+2023-09-14 08:40:52  JDC-7851 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:53  FAY-5923 Found Guid
+2023-09-14 08:40:54  FAY-5923 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:54  MHENDRIX-6749 Found Guid
+2023-09-14 08:40:55  MHENDRIX-6749 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:55  JHARP-7733 Found Guid
+2023-09-14 08:40:56  JHARP-7733 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:56  FAY-6360 Found Guid
+2023-09-14 08:40:57  FAY-6360 Uninstall Failed with Exit Code 1619
+2023-09-14 08:40:57  BSOUTHWORT-7330 Found Guid
+2023-09-14 08:40:58  BSOUTHWORT-7330 Uninstall Failed with Exit Code 1619
+2023-09-14 08:41:45  RHINES-7212 Found Guid and is :
+2023-09-14 08:41:46  RHINES-7212 Uninstall Failed with Exit Code 1619
+2023-09-14 08:41:46  SARRINGTON-7688 Found Guid and is :
+2023-09-14 08:41:47  SARRINGTON-7688 Uninstall Failed with Exit Code 1619
+2023-09-14 08:41:47  P04-WC-DSK-19 Found Guid and is :
+2023-09-14 08:41:48  P04-WC-DSK-19 Uninstall Failed with Exit Code 1619
+2023-09-14 08:41:48  JYCSR-6766 Found Guid and is :
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> Get-Service -ComputerName  SARRINGTON-7688 -Name "kas"
+Get-Service : Cannot find any service with service name 'kas'.
+At line:1 char:1
++ Get-Service -ComputerName  SARRINGTON-7688 -Name "kas"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (kas:String) [Get-Service], ServiceCommandException
+    + FullyQualifiedErrorId : NoServiceFoundForGivenName,Microsoft.PowerShell.Commands.GetServiceCommand
+Get-Service : Cannot find any service with service name 'kas'.
+At line:1 char:1
++ Get-Service -ComputerName  SARRINGTON-7688 -Name "kas"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (kas:String) [Get-Service], ServiceCommandException
+    + FullyQualifiedErrorId : NoServiceFoundForGivenName,Microsoft.PowerShell.Commands.GetServiceCommand
+
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> Get-Service -ComputerName SARRINGTON-7688
+
+Status   Name               DisplayName
+------   ----               -----------
+Stopped  AarSvc_10b17181e   Agent Activation Runtime_10b17181e
+Running  AdobeARMservice    Adobe Acrobat Update Service
+Stopped  AdobeFlashPlaye... Adobe Flash Player Update Service
+Running  AdobeUpdateService AdobeUpdateService
+Running  AGMService         Adobe Genuine Software Monitor Service
+Stopped  AJRouter           AllJoyn Router Service
+Stopped  ALG                Application Layer Gateway Service
+Start... ApHidMonitorSer... AlpsAlpine HID Monitor Service
+Stopped  AppIDSvc           Application Identity
+Running  Appinfo            Application Information
+Stopped  AppMgmt            Application Management
+Stopped  AppReadiness       App Readiness
+Stopped  AppVClient         Microsoft App-V Client
+Running  AppXSvc            AppX Deployment Service (AppXSVC)
+Stopped  AssignedAccessM... AssignedAccessManager Service
+Running  AtherosSvc         AtherosSvc
+Running  AudioEndpointBu... Windows Audio Endpoint Builder
+Running  Audiosrv           Windows Audio
+Stopped  autotimesvc        Cellular Time
+Running  AVP                Kaspersky Endpoint Security Service
+Running  avpsus             Kaspersky Seamless Update Service
+Stopped  AxInstSV           ActiveX Installer (AxInstSV)
+Stopped  BcastDVRUserSer... GameDVR and Broadcast User Service_...
+Stopped  BDESVC             BitLocker Drive Encryption Service
+Running  BESClient          BES Client
+Running  BFE                Base Filtering Engine
+Running  BITS               Background Intelligent Transfer Ser...
+Running  BluetoothUserSe... Bluetooth User Support Service_10b1...
+Running  BrokerInfrastru... Background Tasks Infrastructure Ser...
+Running  BTAGService        Bluetooth Audio Gateway Service
+Running  BthAvctpSvc        AVCTP service
+Running  bthserv            Bluetooth Support Service
+Running  camsvc             Capability Access Manager Service
+Stopped  CaptureService_... CaptureService_10b17181e
+Running  cbdhsvc_10b17181e  Clipboard User Service_10b17181e
+Running  CDPSvc             Connected Devices Platform Service
+Running  CDPUserSvc_10b1... Connected Devices Platform User Ser...
+Running  CertPropSvc        Certificate Propagation
+Running  ClickToRunSvc      Microsoft Office Click-to-Run Service
+Stopped  ClipSVC            Client License Service (ClipSVC)
+Stopped  cloudidsvc         Microsoft Cloud Identity Service
+Stopped  COMSysApp          COM+ System Application
+Stopped  ConsentUxUserSv... ConsentUX_10b17181e
+Running  CoreMessagingRe... CoreMessaging
+Stopped  cphs               Intel(R) Content Protection HECI Se...
+Running  cplspcon           Intel(R) Content Protection HDCP Se...
+Stopped  CredentialEnrol... CredentialEnrollmentManagerUserSvc_...
+Running  CryptSvc           Cryptographic Services
+Stopped  CscService         Offline Files
+Running  cyserver           Cortex XDR
+Running  DcomLaunch         DCOM Server Process Launcher
+Stopped  dcsvc              dcsvc
+Running  DDVCollectorSvcApi Dell Data Vault Service API
+Running  DDVDataCollector   Dell Data Vault Collector
+Running  DDVRulesProcessor  Dell Data Vault Processor
+Stopped  defragsvc          Optimize drives
+Running  DellClientManag... Dell Client Management Service
+Running  DellTechHub        Dell TechHub
+Stopped  DeviceAssociati... DeviceAssociationBroker_10b17181e
+Running  DeviceAssociati... Device Association Service
+Stopped  DeviceInstall      Device Install Service
+Stopped  DevicePickerUse... DevicePicker_10b17181e
+Stopped  DevicesFlowUser... DevicesFlow_10b17181e
+Stopped  DevQueryBroker     DevQuery Background Discovery Broker
+Running  Dhcp               DHCP Client
+Stopped  diagnosticshub.... Microsoft (R) Diagnostics Hub Stand...
+Stopped  diagsvc            Diagnostic Execution Service
+Running  DiagTrack          Connected User Experiences and Tele...
+Stopped  DialogBlockingS... DialogBlockingService
+Running  DispBrokerDeskt... Display Policy Service
+Running  DisplayEnhancem... Display Enhancement Service
+Stopped  DmEnrollmentSvc    Device Management Enrollment Service
+Stopped  dmwappushservice   Device Management Wireless Applicat...
+Running  Dnscache           DNS Client
+Stopped  DoSvc              Delivery Optimization
+Running  dot3svc            Wired AutoConfig
+Running  DPS                Diagnostic Policy Service
+Running  dptftcs            Intel(R) Dynamic Tuning Technology ...
+Stopped  DsmSvc             Device Setup Manager
+Running  DsSvc              Data Sharing Service
+Running  DusmSvc            Data Usage
+Running  Eaphost            Extensible Authentication Protocol
+Stopped  edgeupdate         Microsoft Edge Update Service (edge...
+Stopped  edgeupdatem        Microsoft Edge Update Service (edge...
+Stopped  EFS                Encrypting File System (EFS)
+Stopped  embeddedmode       Embedded Mode
+Running  EMCliSrv           EMCliSrv
+Stopped  EntAppSvc          Enterprise App Management Service
+Running  esifsvc            Intel(R) Dynamic Platform and Therm...
+Running  EventLog           Windows Event Log
+Running  EventSystem        COM+ Event System
+Stopped  Fax                Fax
+Stopped  fdPHost            Function Discovery Provider Host
+Stopped  FDResPub           Function Discovery Resource Publica...
+Stopped  fhsvc              File History Service
+Running  FontCache          Windows Font Cache Service
+Running  FontCache3.0.0.0   Windows Presentation Foundation Fon...
+Running  FrameServer        Windows Camera Frame Server
+Stopped  GoogleChromeEle... Google Chrome Elevation Service (Go...
+Stopped  gpsvc              Group Policy Client
+Stopped  GraphicsPerfSvc    GraphicsPerfSvc
+Stopped  gupdate            Google Update Service (gupdate)
+Stopped  gupdatem           Google Update Service (gupdatem)
+Stopped  HfcDisableService  Intel(R) RST HFC Disable Service
+Running  hidserv            Human Interface Device Service
+Running  hostcontrolsvc     Credential Vault Host Control Service
+Running  hoststoragesvc     Credential Vault Host Storage
+Stopped  HvHost             HV Host Service
+Stopped  iaStorAfsService   Intel(R) Optane(TM) Memory Service
+Stopped  IAStorDataMgrSvc   Intel(R) Rapid Storage Technology
+Stopped  icssvc             Windows Mobile Hotspot Service
+Running  igccservice        Intel(R) Graphics Command Center Se...
+Running  igfxCUIService2... Intel(R) HD Graphics Control Panel ...
+Running  IKEEXT             IKE and AuthIP IPsec Keying Modules
+Running  InstallService     Microsoft Store Install Service
+Stopped  Intel(R) Capabi... Intel(R) Capability Licensing Servi...
+Stopped  Intel(R) Platfo... Intel(R) Platform License Manager S...
+Stopped  Intel(R) TPM Pr... Intel(R) TPM Provisioning Service
+Running  IntelAudioService  Intel(R) Audio Service
+Running  ipfsvc             Intel(R) Innovation Platform Framew...
+Running  iphlpsvc           IP Helper
+Stopped  IpxlatCfgSvc       IP Translation Configuration Service
+Running  jhi_service        Intel(R) Dynamic Application Loader...
+Running  KeyIso             CNG Key Isolation
+Stopped  klnagent           Kaspersky Security Center Network A...
+Running  ksnproxy           Kaspersky Security Network proxy se...
+Stopped  KtmRm              KtmRm for Distributed Transaction C...
+Running  LanmanServer       Server
+Running  LanmanWorkstation  Workstation
+Running  lfsvc              Geolocation Service
+Running  LicenseManager     Windows License Manager Service
+Stopped  lltdsvc            Link-Layer Topology Discovery Mapper
+Running  lmhosts            TCP/IP NetBIOS Helper
+Stopped  LMS                Intel(R) Management and Security Ap...
+Running  LSM                Local Session Manager
+Stopped  LxpSvc             Language Experience Service
+Stopped  MapsBroker         Downloaded Maps Manager
+Stopped  McpManagementSe... McpManagementService
+Stopped  MessagingServic... MessagingService_10b17181e
+Stopped  MicrosoftEdgeEl... Microsoft Edge Elevation Service (M...
+Running  MicrosoftSearch... Microsoft Search in Bing
+Stopped  MixedRealityOpe... Windows Mixed Reality OpenXR Service
+Stopped  MozillaMaintenance Mozilla Maintenance Service
+Running  mpssvc             Windows Defender Firewall
+Stopped  MSDTC              Distributed Transaction Coordinator
+Stopped  MSiSCSI            Microsoft iSCSI Initiator Service
+Stopped  msiserver          Windows Installer
+Stopped  MsKeyboardFilter   Microsoft Keyboard Filter
+Stopped  NaturalAuthenti... Natural Authentication
+Stopped  NcaSvc             Network Connectivity Assistant
+Running  NcbService         Network Connection Broker
+Stopped  NcdAutoSetup       Network Connected Devices Auto-Setup
+Running  Netlogon           Netlogon
+Running  Netman             Network Connections
+Running  netprofm           Network List Service
+Stopped  NetSetupSvc        Network Setup Service
+Stopped  NetTcpPortSharing  Net.Tcp Port Sharing Service
+Running  NgcCtnrSvc         Microsoft Passport Container
+Stopped  NgcSvc             Microsoft Passport
+Running  NlaSvc             Network Location Awareness
+Running  nsi                Network Store Interface Service
+Running  OneSyncSvc_10b1... Sync Host_10b17181e
+Stopped  ose                Office  Source Engine
+Running  osppsvc            Office Software Protection Platform
+Stopped  p2pimsvc           Peer Networking Identity Manager
+Stopped  p2psvc             Peer Networking Grouping
+Running  PanGPS             PanGPS
+Running  PcaSvc             Program Compatibility Assistant Ser...
+Stopped  PeerDistSvc        BranchCache
+Stopped  perceptionsimul... Windows Perception Simulation Service
+Stopped  PerfHost           Performance Counter DLL Host
+Running  PhoneSvc           Phone Service
+Running  PimIndexMainten... Contact Data_10b17181e
+Stopped  pla                Performance Logs & Alerts
+Running  PlugPlay           Plug and Play
+Stopped  PNRPAutoReg        PNRP Machine Name Publication Service
+Stopped  PNRPsvc            Peer Name Resolution Protocol
+Running  PolicyAgent        IPsec Policy Agent
+Running  Power              Power
+Stopped  PrintNotify        Printer Extensions and Notifications
+Stopped  PrintWorkflowUs... PrintWorkflow_10b17181e
+Running  ProfSvc            User Profile Service
+Stopped  PushToInstall      Windows PushToInstall Service
+Running  QcomWlanSrv        Qualcomm Atheros WLAN Driver Service
+Running  QWAVE              Quality Windows Audio Video Experience
+Stopped  RasAuto            Remote Access Auto Connection Manager
+Running  RasMan             Remote Access Connection Manager
+Stopped  RemoteAccess       Routing and Remote Access
+Stopped  RemoteRegistry     Remote Registry
+Stopped  RetailDemo         Retail Demo Service
+Running  RmSvc              Radio Management Service
+Running  RpcEptMapper       RPC Endpoint Mapper
+Stopped  RpcLocator         Remote Procedure Call (RPC) Locator
+Running  RpcSs              Remote Procedure Call (RPC)
+Stopped  RstMwService       Intel(R) Storage Middleware Service
+Running  RtkAudioUnivers... Realtek Audio Universal Service
+Running  SamSs              Security Accounts Manager
+Running  SCardSvr           Smart Card
+Stopped  ScDeviceEnum       Smart Card Device Enumeration Service
+Running  Schedule           Task Scheduler
+Stopped  SCPolicySvc        Smart Card Removal Policy
+Stopped  SDRSVC             Windows Backup
+Running  seclogon           Secondary Logon
+Running  SecurityHealthS... Windows Security Service
+Stopped  SEMgrSvc           Payments and NFC/SE Manager
+Running  SENS               System Event Notification Service
+Stopped  Sense              Windows Defender Advanced Threat Pr...
+Stopped  SensorDataService  Sensor Data Service
+Stopped  SensorService      Sensor Service
+Stopped  SensrSvc           Sensor Monitoring Service
+Stopped  SessionEnv         Remote Desktop Configuration
+Running  SgrmBroker         System Guard Runtime Monitor Broker
+Stopped  SharedAccess       Internet Connection Sharing (ICS)
+Stopped  SharedRealitySvc   Spatial Data Service
+Running  ShellHWDetection   Shell Hardware Detection
+Stopped  shpamsvc           Shared PC Account Manager
+Running  smphost            Microsoft Storage Spaces SMP
+Stopped  SmsRouter          Microsoft Windows SMS Router Service.
+Stopped  SNMPTRAP           SNMP Trap
+Stopped  spectrum           Windows Perception Service
+Running  Spooler            Print Spooler
+Stopped  sppsvc             Software Protection
+Running  SSDPSRV            SSDP Discovery
+Stopped  ssh-agent          OpenSSH Authentication Agent
+Running  SstpSvc            Secure Socket Tunneling Protocol Se...
+Running  StateRepository    State Repository Service
+Running  stisvc             Windows Image Acquisition (WIA)
+Running  StorSvc            Storage Service
+Running  SupportAssistAgent Dell SupportAssist
+Stopped  svsvc              Spot Verifier
+Stopped  swprv              Microsoft Software Shadow Copy Prov...
+Running  SysMain            SysMain
+Running  SystemEventsBroker System Events Broker
+Running  TabletInputService Touch Keyboard and Handwriting Pane...
+Running  TapiSrv            Telephony
+Running  TbtP2pShortcutS... Thunderbolt(TM) Peer to Peer Shortcut
+Stopped  TermService        Remote Desktop Services
+Running  Themes             Themes
+Stopped  TieringEngineSe... Storage Tiers Management
+Running  TimeBrokerSvc      Time Broker
+Running  TokenBroker        Web Account Manager
+Running  TRCTARGET          BigFix Remote Control - Target
+Running  TrkWks             Distributed Link Tracking Client
+Stopped  TroubleshootingSvc Recommended Troubleshooting Service
+Running  TrustedInstaller   Windows Modules Installer
+Stopped  tzautoupdate       Auto Time Zone Updater
+Stopped  UdkUserSvc_10b1... Udk User Service_10b17181e
+Stopped  UevAgentService    User Experience Virtualization Service
+Running  uhssvc             Microsoft Update Health Service
+Stopped  UmRdpService       Remote Desktop Services UserMode Po...
+Running  UnistoreSvc_10b... User Data Storage_10b17181e
+Stopped  upnphost           UPnP Device Host
+Running  UserDataSvc_10b... User Data Access_10b17181e
+Running  UserManager        User Manager
+Running  ushupgradesvc      Credential Vault Upgrade Service
+Running  UsoSvc             Update Orchestrator Service
+Stopped  VacSvc             Volumetric Audio Compositor Service
+Running  VaultSvc           Credential Manager
+Stopped  vds                Virtual Disk
+Stopped  vmicguestinterface Hyper-V Guest Service Interface
+Stopped  vmicheartbeat      Hyper-V Heartbeat Service
+Stopped  vmickvpexchange    Hyper-V Data Exchange Service
+Stopped  vmicrdv            Hyper-V Remote Desktop Virtualizati...
+Stopped  vmicshutdown       Hyper-V Guest Shutdown Service
+Stopped  vmictimesync       Hyper-V Time Synchronization Service
+Stopped  vmicvmsession      Hyper-V PowerShell Direct Service
+Stopped  vmicvss            Hyper-V Volume Shadow Copy Requestor
+Stopped  VSS                Volume Shadow Copy
+Running  W32Time            Windows Time
+Stopped  WaaSMedicSvc       Windows Update Medic Service
+Stopped  WalletService      WalletService
+Stopped  WarpJITSvc         WarpJITSvc
+Running  WavesAudioService  Waves Audio Universal Services
+Running  WavesSysSvc        Waves Audio Services
+Stopped  wbengine           Block Level Backup Engine Service
+Running  WbioSrvc           Windows Biometric Service
+Running  Wcmsvc             Windows Connection Manager
+Stopped  wcncsvc            Windows Connect Now - Config Registrar
+Running  WdiServiceHost     Diagnostic Service Host
+Running  WdiSystemHost      Diagnostic System Host
+Stopped  WdNisSvc           Microsoft Defender Antivirus Networ...
+Running  WebClient          WebClient
+Stopped  Wecsvc             Windows Event Collector
+Stopped  WEPHOSTSVC         Windows Encryption Provider Host Se...
+Stopped  wercplsupport      Problem Reports Control Panel Support
+Stopped  WerSvc             Windows Error Reporting Service
+Stopped  WFDSConMgrSvc      Wi-Fi Direct Services Connection Ma...
+Stopped  WiaRpc             Still Image Acquisition Events
+Stopped  WinDefend          Microsoft Defender Antivirus Service
+Running  WinHttpAutoProx... WinHTTP Web Proxy Auto-Discovery Se...
+Running  Winmgmt            Windows Management Instrumentation
+Stopped  WinRM              Windows Remote Management (WS-Manag...
+Stopped  wisvc              Windows Insider Service
+Running  WlanSvc            WLAN AutoConfig
+Stopped  wlidsvc            Microsoft Account Sign-in Assistant
+Stopped  wlpasvc            Local Profile Assistant Service
+Stopped  WManSvc            Windows Management Service
+Stopped  wmiApSrv           WMI Performance Adapter
+Running  WMIRegistration... Intel(R) Management Engine WMI Prov...
+Stopped  WMPNetworkSvc      Windows Media Player Network Sharin...
+Stopped  workfolderssvc     Work Folders
+Stopped  WpcMonSvc          Parental Controls
+Stopped  WPDBusEnum         Portable Device Enumerator Service
+Running  WpnService         Windows Push Notifications System S...
+Running  WpnUserService_... Windows Push Notifications User Ser...
+Running  wscsvc             Security Center
+Running  WSearch            Windows Search
+Stopped  wuauserv           Windows Update
+Stopped  WwanSvc            WWAN AutoConfig
+Stopped  XblAuthManager     Xbox Live Auth Manager
+Stopped  XblGameSave        Xbox Live Game Save
+Stopped  XboxGipSvc         Xbox Accessory Management Service
+Stopped  XboxNetApiSvc      Xbox Live Networking Service
+Stopped  xdrhealth          Cortex XDR Health Helper
+
+
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> New-PSSession  SARRINGTON-7688
+New-PSSession : [SARRINGTON-7688] Connecting to remote server SARRINGTON-7688 failed with the following error message : 
+The client cannot connect to the destination specified in the request. Verify that the service on the destination is 
+running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the 
+destination, most commonly IIS or WinRM. If the destination is the WinRM service, run the following command on the 
+destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the 
+about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ New-PSSession  SARRINGTON-7688
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.Manageme....RemoteRunspace:RemoteRunspace) [New-PSSession], 
+PSRemotingTransportException
+    + FullyQualifiedErrorId : CannotConnect,PSSessionOpenFailed
+New-PSSession : [SARRINGTON-7688] Connecting to remote server SARRINGTON-7688 failed with the following error message : The client cannot connect to the destination specified in the request. Verify that the service on
+the destination is running and is accepting requests. Consult the logs and documentation for the WS-Management service running on the destination, most commonly IIS or WinRM. If the destination is the WinRM service,
+run the following command on the destination to analyze and configure the WinRM service: "winrm quickconfig". For more information, see the about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ New-PSSession  SARRINGTON-7688
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OpenError: (System.Manageme....RemoteRunspace:RemoteRunspace) [New-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CannotConnect,PSSessionOpenFailed
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> Enable-PSRemoting /?
+>> TerminatingError(Enable-PSRemoting): "A positional parameter cannot be found that accepts argument '/?'."
+Enable-PSRemoting : A positional parameter cannot be found that accepts argument '/?'.
+At line:1 char:1
++ Enable-PSRemoting /?
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Enable-PSRemoting], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.EnablePSRemotingCommand
+Enable-PSRemoting : A positional parameter cannot be found that accepts argument '/?'.
+At line:1 char:1
++ Enable-PSRemoting /?
++ ~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Enable-PSRemoting], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.EnablePSRemotingCommand
+
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> TerminatingError(): "The pipeline has been stopped."
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> TerminatingError(): "The pipeline has been stopped."
+>> invoke-command
+>> TerminatingError(Invoke-Command): "Cannot process command because of one or more missing mandatory parameters: ScriptBlock."
+>> TerminatingError(): "The pipeline has been stopped."
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> invoke-command -ScriptBlock { msiexec /x '{1B872D21-6D52-4895-9463-6E66B3EE8431}' KLLOGIN=""KLAdmin"" KLPASSWD=""K@sp3rsky"" /qn /norestart } -ComputerName JDC-8751
+
+[JDC-8751] Connecting to remote server JDC-8751 failed with the following error message : WinRM cannot process the 
+request. The following error occurred while using Kerberos authentication: Cannot find the computer JDC-8751. Verify 
+that the computer exists on the network and that the name provided is spelled correctly. For more information, see the 
+about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OpenError: (JDC-8751:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : NetworkPathNotFound,PSSessionStateBroken
+[JDC-8751] Connecting to remote server JDC-8751 failed with the following error message : WinRM cannot process the request. The following error occurred while using Kerberos authentication: Cannot find the computer
+JDC-8751. Verify that the computer exists on the network and that the name provided is spelled correctly. For more information, see the about_Remote_Troubleshooting Help topic.
+    + CategoryInfo          : OpenError: (JDC-8751:String) [], PSRemotingTransportException
+    + FullyQualifiedErrorId : NetworkPathNotFound,PSSessionStateBroken
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> Enter-PSSession -ComputerName JDC-8751
+Enter-PSSession : Connecting to remote server JDC-8751 failed with the following error message : WinRM cannot process 
+the request. The following error occurred while using Kerberos authentication: Cannot find the computer JDC-8751. 
+Verify that the computer exists on the network and that the name provided is spelled correctly. For more information, 
+see the about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName JDC-8751
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (JDC-8751:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+Enter-PSSession : Connecting to remote server JDC-8751 failed with the following error message : WinRM cannot process the request. The following error occurred while using Kerberos authentication: Cannot find the
+computer JDC-8751. Verify that the computer exists on the network and that the name provided is spelled correctly. For more information, see the about_Remote_Troubleshooting Help topic.
+At line:1 char:1
++ Enter-PSSession -ComputerName JDC-8751
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (JDC-8751:String) [Enter-PSSession], PSRemotingTransportException
+    + FullyQualifiedErrorId : CreateRemoteRunspaceFailed
+
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> psexec
+psexec : The term 'psexec' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ psexec
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (psexec:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+psexec : The term 'psexec' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try
+again.
+At line:1 char:1
++ psexec
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (psexec:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> $DN = Read-Host "Please enter the OU you want to grant access"
+Set-LapsADComputerSelfPermission -Identity $DN
+
+Name      DistinguishedName
+----      -----------------
+Computers OU=Computers,OU=IS Information Center,OU=Corporate,DC=genesco,DC=local
+
+
+PS Microsoft.PowerShell.Core\FileSystem::\\p01-wf-tch-01\data$\Marshall\Scripts\Bigfix Agent> $OU = Read-Host "Please enter the OU you want to grant access"
+set-lapsadReadPasswordPermission -Identity $OU -AllowedPrincipals “S-1-5-21-119156129-1489795576-1349916565-45554"
+
+Name      DistinguishedName
+----      -----------------
+Computers OU=Computers,OU=IS Information Center,OU=Corporate,DC=genesco,DC=local
+
+

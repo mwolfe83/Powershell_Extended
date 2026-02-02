@@ -1,0 +1,3 @@
+﻿NodeName,NodeIPAddress,Site,Stakeholder,Poller,PollingMethod
+s051740,10.117.40.36,JMUS 7220,Store Devices,2,SNMP
+s051740-2,10.117.40.37,JMUS 7220,Store Devices,2,SNMP

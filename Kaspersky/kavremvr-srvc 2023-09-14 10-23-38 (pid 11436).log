@@ -1,0 +1,755 @@
+11436:6c38 10:23:39.002 Starting server...
+11436:6c38 10:23:39.007 Failed to write dbghelp.dll
+11436:6c38 10:23:39.008 Initializing application...
+11436:6c38 10:23:39.030 Loading ini files...
+11436:6c38 10:23:39.054 Loading resource data 'RES_INI_X64'...
+11436:6c38 10:23:39.085 Loading resource data finished, 569379 bytes
+11436:6c38 10:23:39.085 Loading resource data 'RES_INI_X32X64'...
+11436:6c38 10:23:39.087 Loading resource data finished, 2540598 bytes
+11436:6c38 10:23:39.088 Parsing ini files data...
+11436:6c38 10:23:39.123 Ini files data parsed, 118 files parsed
+11436:6c38 10:23:39.124 Dumping data to files...
+11436:6c38 10:23:39.176 Data dumped to files
+11436:5124 10:23:40.013 SetUserEnvironment
+11436:5124 10:23:40.014 Dumping current environment...
+11436:5124 10:23:40.015 CreateFileA () failed, error 3
+11436:5124 10:23:40.015 Set environment from string...
+11436:5124 10:23:40.016 change_current_enviroment start
+11436:5124 10:23:40.083 Server malloc
+11436:5124 10:23:40.084 Server free
+11436:5124 10:23:40.088 Detect products with no-detect=0, remove-all=0...
+11436:5124 10:23:40.089 ShutdownDetector started watch thread (000003c4)
+11436:76d4 10:23:40.089 Watch thread started
+11436:5124 10:23:40.092 Kaspersky Removal Tool 1.0.3666
+11436:5124 10:23:40.092 KLeaner initialized
+11436:5124 10:23:40.092 OS info...
+11436:5124 10:23:40.198 OS version = 10.0.19045, 64 bit
+11436:5124 10:23:40.199 OS info = Microsoft Windows 10 Enterprise, CSDVersion="", Version=10.0.19045, BuildNumber=19045
+11436:5124 10:23:40.199 TraceSystemInfo: Time ticks=2585202593 ticks64=2585202593 idle=14127084.7812500 kernel=14477446.4375000 user=301094.6562500
+11436:5124 10:23:40.199 TraceSystemInfo: System oemId=00000009 pageSize=4096 MinAppAddress=00010000 MaxAppAddress=FFFEFFFF ActiveProcessorMask=00000FFF NumberOfProcessors=12 ProcessorType=8664 AllocationGranularity=65536 ProcessorLevel=6 ProcessorRevision=47619
+11436:5124 10:23:40.199 TraceSystemInfo: Memory Load=80 Phys=3315761152/16849256448 PageFile=7433965568/30257684480 Virtual=2063949824/2147352576 AvailExtendedVirtual=0
+11436:5124 10:23:40.205 TraceSystemInfo: Performance commit(total=5572197,limit=7387130,peak=6443220 phis(total=4113588,avail=809512) syscache=597956 kernel(total=736578,paged=368349,nonpaged=368229) page=4096 handles=195435 processes=276 threads=4146
+11436:5124 10:23:40.205 TraceTokenInformation: class=1(User) length=20 [User[Sid=S-1-5-18,Attributes=0]]
+11436:5124 10:23:40.205 TraceTokenInformation: class=2(Groups) length=88 [GroupCount=4,[Sid=S-1-5-32-544,Attributes=E],[Sid=S-1-1-0,Attributes=7],[Sid=S-1-5-11,Attributes=7],[Sid=S-1-16-16384,Attributes=60]]
+11436:5124 10:23:40.209 TraceTokenInformation: class=3(Privileges) length=340 [PrivilegeCount=28,[Luid=SeAssignPrimaryTokenPrivilege,Attributes=0],[Luid=SeLockMemoryPrivilege,Attributes=3],[Luid=SeIncreaseQuotaPrivilege,Attributes=0],[Luid=SeTcbPrivilege,Attributes=3],[Luid=SeSecurityPrivilege,Attributes=0],[Luid=SeTakeOwnershipPrivilege,Attributes=0],[Luid=SeLoadDriverPrivilege,Attributes=0],[Luid=SeSystemProfilePrivilege,Attributes=3],[Luid=SeSystemtimePrivilege,Attributes=0],[Luid=SeProfileSingleProcessPrivilege,Attributes=3],[Luid=SeIncreaseBasePriorityPrivilege,Attributes=3],[Luid=SeCreatePagefilePrivilege,Attributes=3],[Luid=SeCreatePermanentPrivilege,Attributes=3],[Luid=SeBackupPrivilege,Attributes=0],[Luid=SeRestorePrivilege,Attributes=0],[Luid=SeShutdownPrivilege,Attributes=0],[Luid=SeDebugPrivilege,Attributes=3],[Luid=SeAuditPrivilege,Attributes=3],[Luid=SeSystemEnvironmentPrivilege,Attributes=0],[Luid=SeChangeNotifyPrivilege,Attributes=3],[Luid=SeUndockPrivilege,Attributes=0],[Luid=SeManageVolumePrivilege,Attributes=0],[Luid=SeImpersonatePrivilege,Attributes=3],[Luid=SeCreateGlobalPrivilege,Attributes=3],[Luid=SeIncreaseWorkingSetPrivilege,Attributes=3],[Luid=SeTimeZonePrivilege,Attributes=3],[Luid=SeCreateSymbolicLinkPrivilege,Attributes=3],[Luid=SeDelegateSessionUserImpersonatePrivilege,Attributes=3]]
+11436:5124 10:23:40.210 TraceTokenInformation: class=4(Owner) length=20 [Owner=S-1-5-32-544]
+11436:5124 10:23:40.210 TraceTokenInformation: class=5(PrimaryGroup) length=16 [PrimaryGroup=S-1-5-18]
+11436:5124 10:23:40.213 TraceTokenInformation: class=11(RestrictedSids) length=4 [GroupCount=0]
+11436:5124 10:23:40.213 TraceTokenInformation: class=12(SessionId) length=4 [0(00000000)]
+11436:5124 10:23:40.213 TraceTokenInformation: class=14(SessionReference) length=1 GetInfo fail error=87
+11436:5124 10:23:40.213 TraceTokenInformation: class=15(SandBoxInert) length=4 [0(00000000)]
+11436:5124 10:23:40.214 TraceTokenInformation: class=16(AuditPolicy) length=1 GetInfo fail error=1314
+11436:5124 10:23:40.214 KLeaner is looking in C:\Users\mbwolfe\AppData\Local\Temp\{01276352-CA8B-4127-8DCC-44A5201B63C9}\jkbasuy1\xsxfr\ for *.ini...
+11436:5124 10:23:40.215 file found: df0.ini
+11436:5124 10:23:40.218 no detect
+11436:5124 10:23:40.218 file found: df1.ini
+11436:5124 10:23:40.221 no detect
+11436:5124 10:23:40.221 file found: df10.ini
+11436:5124 10:23:40.222 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.222 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.222 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.222 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.222 no detect
+11436:5124 10:23:40.222 file found: df100.ini
+11436:5124 10:23:40.225 no detect
+11436:5124 10:23:40.225 file found: df101.ini
+11436:5124 10:23:40.228 no detect
+11436:5124 10:23:40.229 file found: df102.ini
+11436:5124 10:23:40.232 no detect
+11436:5124 10:23:40.232 file found: df103.ini
+11436:5124 10:23:40.235 no detect
+11436:5124 10:23:40.236 file found: df104.ini
+11436:5124 10:23:40.239 no detect
+11436:5124 10:23:40.239 file found: df105.ini
+11436:5124 10:23:40.243 no detect
+11436:5124 10:23:40.243 file found: df106.ini
+11436:5124 10:23:40.247 no detect
+11436:5124 10:23:40.247 file found: df107.ini
+11436:5124 10:23:40.250 no detect
+11436:5124 10:23:40.250 file found: df108.ini
+11436:5124 10:23:40.253 no detect
+11436:5124 10:23:40.253 file found: df109.ini
+11436:5124 10:23:40.257 no detect
+11436:5124 10:23:40.257 file found: df11.ini
+11436:5124 10:23:40.258 no detect
+11436:5124 10:23:40.258 file found: df110.ini
+11436:5124 10:23:40.260 no detect
+11436:5124 10:23:40.260 file found: df111.ini
+11436:5124 10:23:40.264 no detect
+11436:5124 10:23:40.264 file found: df112.ini
+11436:5124 10:23:40.268 no detect
+11436:5124 10:23:40.268 file found: df113.ini
+11436:5124 10:23:40.272 no detect
+11436:5124 10:23:40.272 file found: df114.ini
+11436:5124 10:23:40.273 RegOpenKeyEx(80000002H\SOFTWARE\Kaspersky Lab\Thread Feed Service\DataPath) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.273 no detect
+11436:5124 10:23:40.273 file found: df115.ini
+11436:5124 10:23:40.276 no detect
+11436:5124 10:23:40.276 file found: df116.ini
+11436:5124 10:23:40.278 no detect
+11436:5124 10:23:40.278 file found: df117.ini
+11436:5124 10:23:40.278 This OS is not supported
+11436:5124 10:23:40.278 no detect
+11436:5124 10:23:40.278 file found: df12.ini
+11436:5124 10:23:40.279 no detect
+11436:5124 10:23:40.279 file found: df13.ini
+11436:5124 10:23:40.280 no detect
+11436:5124 10:23:40.280 file found: df14.ini
+11436:5124 10:23:40.283 This OS is not supported
+11436:5124 10:23:40.283 no detect
+11436:5124 10:23:40.283 file found: df15.ini
+11436:5124 10:23:40.285 This OS is not supported
+11436:5124 10:23:40.285 no detect
+11436:5124 10:23:40.286 file found: df16.ini
+11436:5124 10:23:40.288 no detect
+11436:5124 10:23:40.288 file found: df17.ini
+11436:5124 10:23:40.289 This OS is not supported
+11436:5124 10:23:40.289 no detect
+11436:5124 10:23:40.289 file found: df18.ini
+11436:5124 10:23:40.292 This OS is not supported
+11436:5124 10:23:40.292 no detect
+11436:5124 10:23:40.292 file found: df19.ini
+11436:5124 10:23:40.293 This OS is not supported
+11436:5124 10:23:40.293 no detect
+11436:5124 10:23:40.293 file found: df2.ini
+11436:5124 10:23:40.296 no detect
+11436:5124 10:23:40.297 file found: df20.ini
+11436:5124 10:23:40.298 This OS is not supported
+11436:5124 10:23:40.298 no detect
+11436:5124 10:23:40.298 file found: df21.ini
+11436:5124 10:23:40.300 This OS is not supported
+11436:5124 10:23:40.300 no detect
+11436:5124 10:23:40.300 file found: df22.ini
+11436:5124 10:23:40.302 no detect
+11436:5124 10:23:40.302 file found: df23.ini
+11436:5124 10:23:40.305 no detect
+11436:5124 10:23:40.305 file found: df24.ini
+11436:5124 10:23:40.309 no detect
+11436:5124 10:23:40.309 file found: df25.ini
+11436:5124 10:23:40.313 no detect
+11436:5124 10:23:40.313 file found: df26.ini
+11436:5124 10:23:40.316 no detect
+11436:5124 10:23:40.316 file found: df27.ini
+11436:5124 10:23:40.319 no detect
+11436:5124 10:23:40.320 file found: df28.ini
+11436:5124 10:23:40.323 no detect
+11436:5124 10:23:40.323 file found: df29.ini
+11436:5124 10:23:40.326 no detect
+11436:5124 10:23:40.326 file found: df3.ini
+11436:5124 10:23:40.327 no detect
+11436:5124 10:23:40.327 file found: df30.ini
+11436:5124 10:23:40.330 no detect
+11436:5124 10:23:40.330 file found: df31.ini
+11436:5124 10:23:40.333 no detect
+11436:5124 10:23:40.333 file found: df32.ini
+11436:5124 10:23:40.336 no detect
+11436:5124 10:23:40.336 file found: df33.ini
+11436:5124 10:23:40.338 no detect
+11436:5124 10:23:40.338 file found: df34.ini
+11436:5124 10:23:40.342 no detect
+11436:5124 10:23:40.342 file found: df35.ini
+11436:5124 10:23:40.346 no detect
+11436:5124 10:23:40.346 file found: df36.ini
+11436:5124 10:23:40.350 no detect
+11436:5124 10:23:40.350 file found: df37.ini
+11436:5124 10:23:40.354 no detect
+11436:5124 10:23:40.354 file found: df38.ini
+11436:5124 10:23:40.357 no detect
+11436:5124 10:23:40.358 file found: df39.ini
+11436:5124 10:23:40.358 no detect
+11436:5124 10:23:40.359 file found: df4.ini
+11436:5124 10:23:40.359 no detect
+11436:5124 10:23:40.360 file found: df40.ini
+11436:5124 10:23:40.362 no detect
+11436:5124 10:23:40.362 file found: df41.ini
+11436:5124 10:23:40.365 no detect
+11436:5124 10:23:40.365 file found: df42.ini
+11436:5124 10:23:40.368 no detect
+11436:5124 10:23:40.368 file found: df43.ini
+11436:5124 10:23:40.375 no detect
+11436:5124 10:23:40.375 file found: df44.ini
+11436:5124 10:23:40.379 no detect
+11436:5124 10:23:40.379 file found: df45.ini
+11436:5124 10:23:40.383 no detect
+11436:5124 10:23:40.383 file found: df46.ini
+11436:5124 10:23:40.388 no detect
+11436:5124 10:23:40.388 file found: df47.ini
+11436:5124 10:23:40.392 no detect
+11436:5124 10:23:40.393 file found: df48.ini
+11436:5124 10:23:40.397 no detect
+11436:5124 10:23:40.397 file found: df49.ini
+11436:5124 10:23:40.399 no detect
+11436:5124 10:23:40.399 file found: df5.ini
+11436:5124 10:23:40.400 no detect
+11436:5124 10:23:40.400 file found: df50.ini
+11436:5124 10:23:40.402 no detect
+11436:5124 10:23:40.402 file found: df51.ini
+11436:5124 10:23:40.404 no detect
+11436:5124 10:23:40.404 file found: df52.ini
+11436:5124 10:23:40.406 no detect
+11436:5124 10:23:40.406 file found: df53.ini
+11436:5124 10:23:40.408 no detect
+11436:5124 10:23:40.408 file found: df54.ini
+11436:5124 10:23:40.410 no detect
+11436:5124 10:23:40.410 file found: df55.ini
+11436:5124 10:23:40.412 no detect
+11436:5124 10:23:40.412 file found: df56.ini
+11436:5124 10:23:40.415 no detect
+11436:5124 10:23:40.415 file found: df57.ini
+11436:5124 10:23:40.418 no detect
+11436:5124 10:23:40.418 file found: df58.ini
+11436:5124 10:23:40.421 no detect
+11436:5124 10:23:40.421 file found: df59.ini
+11436:5124 10:23:40.424 no detect
+11436:5124 10:23:40.425 file found: df6.ini
+11436:5124 10:23:40.425 no detect
+11436:5124 10:23:40.426 file found: df60.ini
+11436:5124 10:23:40.428 no detect
+11436:5124 10:23:40.429 file found: df61.ini
+11436:5124 10:23:40.432 no detect
+11436:5124 10:23:40.432 file found: df62.ini
+11436:5124 10:23:40.434 no detect
+11436:5124 10:23:40.434 file found: df63.ini
+11436:5124 10:23:40.436 Detecting upgrade code 'A6317151A20E6524DB14F80340A3A183,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.440 upgrade-code='A6317151A20E6524DB14F80340A3A183' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.440 RegOpenKeyEx(0000031CH\A6317151A20E6524DB14F80340A3A183) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.440 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.440 no detect
+11436:5124 10:23:40.440 file found: df64.ini
+11436:5124 10:23:40.442 This OS is not supported
+11436:5124 10:23:40.442 no detect
+11436:5124 10:23:40.442 file found: df65.ini
+11436:5124 10:23:40.445 This OS is not supported
+11436:5124 10:23:40.445 no detect
+11436:5124 10:23:40.445 file found: df66.ini
+11436:5124 10:23:40.447 no detect
+11436:5124 10:23:40.447 file found: df67.ini
+11436:5124 10:23:40.451 no detect
+11436:5124 10:23:40.451 file found: df68.ini
+11436:5124 10:23:40.455 This OS is not supported
+11436:5124 10:23:40.456 no detect
+11436:5124 10:23:40.456 file found: df69.ini
+11436:5124 10:23:40.457 Detecting upgrade code 'C4C5F8868570986459B06B66D9B75386,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.457 upgrade-code='C4C5F8868570986459B06B66D9B75386' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.457 RegOpenKeyEx(0000031CH\C4C5F8868570986459B06B66D9B75386) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.457 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.457 no detect
+11436:5124 10:23:40.457 file found: df7.ini
+11436:5124 10:23:40.458 no detect
+11436:5124 10:23:40.458 file found: df70.ini
+11436:5124 10:23:40.458 This OS is not supported
+11436:5124 10:23:40.458 no detect
+11436:5124 10:23:40.459 file found: df71.ini
+11436:5124 10:23:40.460 Detecting upgrade code '36C901A98B0374C4BA1F81D4D83648E1,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.460 upgrade-code='36C901A98B0374C4BA1F81D4D83648E1' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.460 RegOpenKeyEx(000003FCH\36C901A98B0374C4BA1F81D4D83648E1) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.460 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.460 no detect
+11436:5124 10:23:40.460 file found: df72.ini
+11436:5124 10:23:40.461 no detect
+11436:5124 10:23:40.461 file found: df73.ini
+11436:5124 10:23:40.462 no detect
+11436:5124 10:23:40.462 file found: df74.ini
+11436:5124 10:23:40.463 no detect
+11436:5124 10:23:40.463 file found: df75.ini
+11436:5124 10:23:40.463 no detect
+11436:5124 10:23:40.463 file found: df76.ini
+11436:5124 10:23:40.464 no detect
+11436:5124 10:23:40.464 file found: df77.ini
+11436:5124 10:23:40.465 no detect
+11436:5124 10:23:40.465 file found: df78.ini
+11436:5124 10:23:40.466 no detect
+11436:5124 10:23:40.466 file found: df79.ini
+11436:5124 10:23:40.467 no detect
+11436:5124 10:23:40.467 file found: df8.ini
+11436:5124 10:23:40.468 no detect
+11436:5124 10:23:40.468 file found: df80.ini
+11436:5124 10:23:40.469 no detect
+11436:5124 10:23:40.469 file found: df81.ini
+11436:5124 10:23:40.470 no detect
+11436:5124 10:23:40.470 file found: df82.ini
+11436:5124 10:23:40.471 no detect
+11436:5124 10:23:40.471 file found: df83.ini
+11436:5124 10:23:40.472 no detect
+11436:5124 10:23:40.472 file found: df84.ini
+11436:5124 10:23:40.472 no detect
+11436:5124 10:23:40.473 file found: df85.ini
+11436:5124 10:23:40.473 no detect
+11436:5124 10:23:40.474 file found: df86.ini
+11436:5124 10:23:40.474 no detect
+11436:5124 10:23:40.474 file found: df87.ini
+11436:5124 10:23:40.475 no detect
+11436:5124 10:23:40.475 file found: df88.ini
+11436:5124 10:23:40.478 no detect
+11436:5124 10:23:40.478 file found: df89.ini
+11436:5124 10:23:40.479 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.479 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.479 no detect
+11436:5124 10:23:40.479 file found: df9.ini
+11436:5124 10:23:40.480 no detect
+11436:5124 10:23:40.480 file found: df90.ini
+11436:5124 10:23:40.480 Detecting upgrade code 'EC4327A59EB71784E9300F4BA9C7E3A2,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.480 upgrade-code='EC4327A59EB71784E9300F4BA9C7E3A2' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.480 RegOpenKeyEx(0000031CH\EC4327A59EB71784E9300F4BA9C7E3A2) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.480 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.480 no detect
+11436:5124 10:23:40.481 file found: df91.ini
+11436:5124 10:23:40.481 Detecting upgrade code 'C0D16C9919DE969458D3A48B6E8D97A2,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.481 upgrade-code='C0D16C9919DE969458D3A48B6E8D97A2' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.481 RegOpenKeyEx(0000031CH\C0D16C9919DE969458D3A48B6E8D97A2) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.481 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.481 no detect
+11436:5124 10:23:40.481 file found: df92.ini
+11436:5124 10:23:40.482 no detect
+11436:5124 10:23:40.482 file found: df93.ini
+11436:5124 10:23:40.485 no detect
+11436:5124 10:23:40.485 file found: df94.ini
+11436:5124 10:23:40.488 no detect
+11436:5124 10:23:40.488 file found: df95.ini
+11436:5124 10:23:40.491 no detect
+11436:5124 10:23:40.491 file found: df96.ini
+11436:5124 10:23:40.494 apply_local_context_command: 'local.x64' 'false'
+11436:5124 10:23:40.494 no detect
+11436:5124 10:23:40.495 file found: df97.ini
+11436:5124 10:23:40.498 no detect
+11436:5124 10:23:40.499 file found: df98.ini
+11436:5124 10:23:40.501 no detect
+11436:5124 10:23:40.501 file found: df99.ini
+11436:5124 10:23:40.504 no detect
+11436:5124 10:23:40.504 **** nothing to detect
+11436:5124 10:23:40.504 Searching finished, nothing detected.
+11436:5124 10:23:40.504 ShutdownDetector started watch thread (000003f4)
+11436:5124 10:23:40.504 Kaspersky Removal Tool 1.0.3666
+11436:5124 10:23:40.504 KLeaner initialized
+11436:5124 10:23:40.504 KLeaner deinitialized
+11436:5124 10:23:40.504 Stopping shutdown detector...
+11436:2fe0 10:23:40.504 Watch thread started
+11436:5124 10:23:40.504 Waiting for watch thread stop...
+11436:76d4 10:23:40.505 Watch thread finished
+11436:5124 10:23:40.505 Watch thread was stopped
+11436:5124 10:23:40.505 OS version = 10.0.19045, 64 bit
+11436:5124 10:23:40.505 OS info = Microsoft Windows 10 Enterprise, CSDVersion="", Version=10.0.19045, BuildNumber=19045
+11436:5124 10:23:40.505 TraceSystemInfo: Time ticks=2585202906 ticks64=2585202906 idle=14127087.7031250 kernel=14477449.8593750 user=301094.9531250
+11436:5124 10:23:40.505 TraceSystemInfo: System oemId=00000009 pageSize=4096 MinAppAddress=00010000 MaxAppAddress=FFFEFFFF ActiveProcessorMask=00000FFF NumberOfProcessors=12 ProcessorType=8664 AllocationGranularity=65536 ProcessorLevel=6 ProcessorRevision=47619
+11436:5124 10:23:40.505 TraceSystemInfo: Memory Load=80 Phys=3317047296/16849256448 PageFile=7433023488/30257684480 Virtual=2059419648/2147352576 AvailExtendedVirtual=0
+11436:5124 10:23:40.508 TraceSystemInfo: Performance commit(total=5572427,limit=7387130,peak=6443220 phis(total=4113588,avail=809826) syscache=597931 kernel(total=736653,paged=368349,nonpaged=368304) page=4096 handles=195431 processes=276 threads=4146
+11436:5124 10:23:40.509 TraceTokenInformation: class=1(User) length=20 [User[Sid=S-1-5-18,Attributes=0]]
+11436:5124 10:23:40.509 TraceTokenInformation: class=2(Groups) length=88 [GroupCount=4,[Sid=S-1-5-32-544,Attributes=E],[Sid=S-1-1-0,Attributes=7],[Sid=S-1-5-11,Attributes=7],[Sid=S-1-16-16384,Attributes=60]]
+11436:5124 10:23:40.512 TraceTokenInformation: class=3(Privileges) length=340 [PrivilegeCount=28,[Luid=SeAssignPrimaryTokenPrivilege,Attributes=0],[Luid=SeLockMemoryPrivilege,Attributes=3],[Luid=SeIncreaseQuotaPrivilege,Attributes=0],[Luid=SeTcbPrivilege,Attributes=3],[Luid=SeSecurityPrivilege,Attributes=0],[Luid=SeTakeOwnershipPrivilege,Attributes=0],[Luid=SeLoadDriverPrivilege,Attributes=0],[Luid=SeSystemProfilePrivilege,Attributes=3],[Luid=SeSystemtimePrivilege,Attributes=0],[Luid=SeProfileSingleProcessPrivilege,Attributes=3],[Luid=SeIncreaseBasePriorityPrivilege,Attributes=3],[Luid=SeCreatePagefilePrivilege,Attributes=3],[Luid=SeCreatePermanentPrivilege,Attributes=3],[Luid=SeBackupPrivilege,Attributes=0],[Luid=SeRestorePrivilege,Attributes=0],[Luid=SeShutdownPrivilege,Attributes=0],[Luid=SeDebugPrivilege,Attributes=3],[Luid=SeAuditPrivilege,Attributes=3],[Luid=SeSystemEnvironmentPrivilege,Attributes=0],[Luid=SeChangeNotifyPrivilege,Attributes=3],[Luid=SeUndockPrivilege,Attributes=0],[Luid=SeManageVolumePrivilege,Attributes=0],[Luid=SeImpersonatePrivilege,Attributes=3],[Luid=SeCreateGlobalPrivilege,Attributes=3],[Luid=SeIncreaseWorkingSetPrivilege,Attributes=3],[Luid=SeTimeZonePrivilege,Attributes=3],[Luid=SeCreateSymbolicLinkPrivilege,Attributes=3],[Luid=SeDelegateSessionUserImpersonatePrivilege,Attributes=3]]
+11436:5124 10:23:40.512 TraceTokenInformation: class=4(Owner) length=20 [Owner=S-1-5-32-544]
+11436:5124 10:23:40.512 TraceTokenInformation: class=5(PrimaryGroup) length=16 [PrimaryGroup=S-1-5-18]
+11436:5124 10:23:40.512 TraceTokenInformation: class=11(RestrictedSids) length=4 [GroupCount=0]
+11436:5124 10:23:40.512 TraceTokenInformation: class=12(SessionId) length=4 [0(00000000)]
+11436:5124 10:23:40.512 TraceTokenInformation: class=14(SessionReference) length=1 GetInfo fail error=87
+11436:5124 10:23:40.512 TraceTokenInformation: class=15(SandBoxInert) length=4 [0(00000000)]
+11436:5124 10:23:40.512 TraceTokenInformation: class=16(AuditPolicy) length=1 GetInfo fail error=1314
+11436:5124 10:23:40.512 KLeaner is looking in C:\Users\mbwolfe\AppData\Local\Temp\{01276352-CA8B-4127-8DCC-44A5201B63C9}\jkbasuy1\xsxfr\ for *.ini...
+11436:5124 10:23:40.513 file found: df0.ini
+11436:5124 10:23:40.513 no detect
+11436:5124 10:23:40.514 forced detection of Endpoint Sensor
+11436:5124 10:23:40.514 file found: df1.ini
+11436:5124 10:23:40.517 no detect
+11436:5124 10:23:40.517 forced detection of Kaspersky 365\Kaspersky Anti-Virus\Internet Security\Kaspersky Total Security 2016 MR1
+11436:5124 10:23:40.517 file found: df10.ini
+11436:5124 10:23:40.518 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.518 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.518 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.518 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4\Installer\shortcuts) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.518 no detect
+11436:5124 10:23:40.518 forced detection of Kaspersky Anti-Ransomware Tool for Business 4
+11436:5124 10:23:40.518 file found: df100.ini
+11436:5124 10:23:40.521 no detect
+11436:5124 10:23:40.521 forced detection of Kaspersky Small Office Security 6
+11436:5124 10:23:40.521 file found: df101.ini
+11436:5124 10:23:40.524 no detect
+11436:5124 10:23:40.524 forced detection of Kaspersky Small Office Security 7
+11436:5124 10:23:40.524 file found: df102.ini
+11436:5124 10:23:40.526 no detect
+11436:5124 10:23:40.526 forced detection of Kaspersky Small Office Security 8
+11436:5124 10:23:40.526 file found: df103.ini
+11436:5124 10:23:40.529 no detect
+11436:5124 10:23:40.529 forced detection of Kaspersky Small Office Security 8 MR1
+11436:5124 10:23:40.530 file found: df104.ini
+11436:5124 10:23:40.533 no detect
+11436:5124 10:23:40.533 forced detection of Kaspersky Small Office Security 8 MR13
+11436:5124 10:23:40.533 file found: df105.ini
+11436:5124 10:23:40.537 no detect
+11436:5124 10:23:40.537 forced detection of Kaspersky Small Office Security 8 MR14
+11436:5124 10:23:40.537 file found: df106.ini
+11436:5124 10:23:40.540 no detect
+11436:5124 10:23:40.540 forced detection of Kaspersky Small Office Security 8 MR2
+11436:5124 10:23:40.540 file found: df107.ini
+11436:5124 10:23:40.543 no detect
+11436:5124 10:23:40.543 forced detection of Kaspersky Small Office Security 8 MR3
+11436:5124 10:23:40.543 file found: df108.ini
+11436:5124 10:23:40.546 no detect
+11436:5124 10:23:40.546 forced detection of Kaspersky Small Office Security 8 MR4
+11436:5124 10:23:40.546 file found: df109.ini
+11436:5124 10:23:40.549 no detect
+11436:5124 10:23:40.549 forced detection of Kaspersky Small Office Security 8 MR5
+11436:5124 10:23:40.549 file found: df11.ini
+11436:5124 10:23:40.550 no detect
+11436:5124 10:23:40.550 forced detection of Kaspersky Anti-Targeted Attacks Endpoint Sensor2.0
+11436:5124 10:23:40.550 file found: df110.ini
+11436:5124 10:23:40.553 no detect
+11436:5124 10:23:40.553 forced detection of Kaspersky Small Office Security 8 MR6
+11436:5124 10:23:40.553 file found: df111.ini
+11436:5124 10:23:40.556 no detect
+11436:5124 10:23:40.556 forced detection of Kaspersky Small Office Security 8 MR7
+11436:5124 10:23:40.556 file found: df112.ini
+11436:5124 10:23:40.559 no detect
+11436:5124 10:23:40.559 forced detection of Kaspersky Small Office Security 8 MR8
+11436:5124 10:23:40.559 file found: df113.ini
+11436:5124 10:23:40.562 no detect
+11436:5124 10:23:40.562 forced detection of Kaspersky Small Office Security 8 MR9
+11436:5124 10:23:40.563 file found: df114.ini
+11436:5124 10:23:40.563 RegOpenKeyEx(80000002H\SOFTWARE\Kaspersky Lab\Thread Feed Service\DataPath) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.563 no detect
+11436:5124 10:23:40.563 forced detection of Kaspersky Threat Feed Service for Windows v.3.0
+11436:5124 10:23:40.563 file found: df115.ini
+11436:5124 10:23:40.566 no detect
+11436:5124 10:23:40.566 forced detection of Nifty Security24 Internet Security 2013 x64
+11436:5124 10:23:40.566 file found: df116.ini
+11436:5124 10:23:40.568 no detect
+11436:5124 10:23:40.568 forced detection of Nifty Security24 Internet Security x64
+11436:5124 10:23:40.568 file found: df117.ini
+11436:5124 10:23:40.568 This OS is not supported
+11436:5124 10:23:40.568 no detect
+11436:5124 10:23:40.568 forced detection of Virus Removal Tool Driver
+11436:5124 10:23:40.568 file found: df12.ini
+11436:5124 10:23:40.569 no detect
+11436:5124 10:23:40.569 forced detection of Kaspersky Anti-Targeted Attacks Endpoint Sensor3.1
+11436:5124 10:23:40.569 file found: df13.ini
+11436:5124 10:23:40.570 no detect
+11436:5124 10:23:40.570 forced detection of Kaspersky Anti-Targeted Attacks Endpoint Sensor3.5
+11436:5124 10:23:40.570 file found: df14.ini
+11436:5124 10:23:40.572 This OS is not supported
+11436:5124 10:23:40.572 no detect
+11436:5124 10:23:40.572 forced detection of Kaspersky Anti-Virus 2009 (x64)
+11436:5124 10:23:40.572 file found: df15.ini
+11436:5124 10:23:40.574 This OS is not supported
+11436:5124 10:23:40.575 no detect
+11436:5124 10:23:40.575 forced detection of Kaspersky Anti-Virus 2010 (x64)
+11436:5124 10:23:40.575 file found: df16.ini
+11436:5124 10:23:40.577 no detect
+11436:5124 10:23:40.577 forced detection of Kaspersky Anti-Virus 6.0 FS MP4 (x64)
+11436:5124 10:23:40.577 file found: df17.ini
+11436:5124 10:23:40.578 This OS is not supported
+11436:5124 10:23:40.578 no detect
+11436:5124 10:23:40.578 forced detection of Kaspersky Anti-Virus 6.0 SOS MP4 x64
+11436:5124 10:23:40.578 file found: df18.ini
+11436:5124 10:23:40.580 This OS is not supported
+11436:5124 10:23:40.580 no detect
+11436:5124 10:23:40.580 forced detection of Kaspersky Anti-Virus 6.0 WKS MP4 (x64)
+11436:5124 10:23:40.580 file found: df19.ini
+11436:5124 10:23:40.581 This OS is not supported
+11436:5124 10:23:40.582 no detect
+11436:5124 10:23:40.582 forced detection of Kaspersky Anti-Virus 6.0 for Windows Servers
+11436:5124 10:23:40.582 file found: df2.ini
+11436:5124 10:23:40.584 no detect
+11436:5124 10:23:40.584 forced detection of Kaspersky 365\Kaspersky Anti-Virus\Internet Security\Kaspersky Total Security 2017
+11436:5124 10:23:40.584 file found: df20.ini
+11436:5124 10:23:40.586 This OS is not supported
+11436:5124 10:23:40.586 no detect
+11436:5124 10:23:40.586 forced detection of Kaspersky Anti-Virus 6.0 for Windows Workstations
+11436:5124 10:23:40.586 file found: df21.ini
+11436:5124 10:23:40.587 This OS is not supported
+11436:5124 10:23:40.591 no detect
+11436:5124 10:23:40.591 forced detection of Kaspersky Anti-Virus/Internet Security 2011 x64
+11436:5124 10:23:40.591 file found: df22.ini
+11436:5124 10:23:40.592 no detect
+11436:5124 10:23:40.592 forced detection of Kaspersky Anti-Virus/Internet Security 2012 x64
+11436:5124 10:23:40.592 file found: df23.ini
+11436:5124 10:23:40.595 no detect
+11436:5124 10:23:40.595 forced detection of Kaspersky Anti-Virus/Internet Security 2013
+11436:5124 10:23:40.595 file found: df24.ini
+11436:5124 10:23:40.599 no detect
+11436:5124 10:23:40.599 forced detection of Kaspersky Anti-Virus/Internet Security 2014
+11436:5124 10:23:40.599 file found: df25.ini
+11436:5124 10:23:40.602 no detect
+11436:5124 10:23:40.602 forced detection of Kaspersky Anti-Virus/Internet Security 2015
+11436:5124 10:23:40.603 file found: df26.ini
+11436:5124 10:23:40.605 no detect
+11436:5124 10:23:40.605 forced detection of Kaspersky Anti-Virus\Internet Security 2018 for Nifty
+11436:5124 10:23:40.605 file found: df27.ini
+11436:5124 10:23:40.608 no detect
+11436:5124 10:23:40.608 forced detection of Kaspersky Anti-Virus\Internet Security for KDDI 2016 MR1
+11436:5124 10:23:40.608 file found: df28.ini
+11436:5124 10:23:40.611 no detect
+11436:5124 10:23:40.611 forced detection of Kaspersky Anti-Virus\Internet Security for KDDI,Orange,Nordnet 2018
+11436:5124 10:23:40.611 file found: df29.ini
+11436:5124 10:23:40.614 no detect
+11436:5124 10:23:40.614 forced detection of Kaspersky Anti-Virus\Internet Security for NordNet 2016 MR1
+11436:5124 10:23:40.614 file found: df3.ini
+11436:5124 10:23:40.615 no detect
+11436:5124 10:23:40.615 forced detection of Kaspersky Anti-Ransomware Tool 6.0
+11436:5124 10:23:40.615 file found: df30.ini
+11436:5124 10:23:40.618 no detect
+11436:5124 10:23:40.618 forced detection of Kaspersky Anti-Virus\Internet Security for Orange 2016 MR1
+11436:5124 10:23:40.618 file found: df31.ini
+11436:5124 10:23:40.620 no detect
+11436:5124 10:23:40.621 forced detection of Kaspersky Anti-Virus\Internet Security\Kaspersky Total Security 15.0.1.415
+11436:5124 10:23:40.621 file found: df32.ini
+11436:5124 10:23:40.623 no detect
+11436:5124 10:23:40.623 forced detection of Kaspersky Anti-Virus\Internet Security\Kaspersky Total Security 15.0.2.361
+11436:5124 10:23:40.623 file found: df33.ini
+11436:5124 10:23:40.626 no detect
+11436:5124 10:23:40.626 forced detection of Kaspersky Anti-Virus\Internet Security\Kaspersky Total Security 2016\Kaspersky 365 1/4
+11436:5124 10:23:40.626 file found: df34.ini
+11436:5124 10:23:40.629 no detect
+11436:5124 10:23:40.630 forced detection of Kaspersky Basic/Standard/Plus/Premium MR13
+11436:5124 10:23:40.630 file found: df35.ini
+11436:5124 10:23:40.633 no detect
+11436:5124 10:23:40.633 forced detection of Kaspersky Basic/Standard/Plus/Premium MR14
+11436:5124 10:23:40.634 file found: df36.ini
+11436:5124 10:23:40.638 no detect
+11436:5124 10:23:40.638 forced detection of Kaspersky Basic/Standard/Plus/Premium MR4-MR7
+11436:5124 10:23:40.638 file found: df37.ini
+11436:5124 10:23:40.641 no detect
+11436:5124 10:23:40.641 forced detection of Kaspersky Basic/Standard/Plus/Premium MR8
+11436:5124 10:23:40.642 file found: df38.ini
+11436:5124 10:23:40.645 no detect
+11436:5124 10:23:40.645 forced detection of Kaspersky Basic/Standard/Plus/Premium MR9
+11436:5124 10:23:40.645 file found: df39.ini
+11436:5124 10:23:40.646 no detect
+11436:5124 10:23:40.646 forced detection of Kaspersky Endpoint Agent 3.7
+11436:5124 10:23:40.646 file found: df4.ini
+11436:5124 10:23:40.647 no detect
+11436:5124 10:23:40.647 forced detection of Kaspersky Anti-Ransomware Tool 6.1
+11436:5124 10:23:40.647 file found: df40.ini
+11436:5124 10:23:40.649 no detect
+11436:5124 10:23:40.649 forced detection of Kaspersky Endpoint Security 10 for Windows
+11436:5124 10:23:40.649 file found: df41.ini
+11436:5124 10:23:40.652 no detect
+11436:5124 10:23:40.652 forced detection of Kaspersky Endpoint Security 10 for Windows Service Pack 1 MR1/MR2/MR3/MR4
+11436:5124 10:23:40.652 file found: df42.ini
+11436:5124 10:23:40.655 no detect
+11436:5124 10:23:40.655 forced detection of Kaspersky Endpoint Security 10 for Windows Service Pack 2
+11436:5124 10:23:40.655 file found: df43.ini
+11436:5124 10:23:40.662 no detect
+11436:5124 10:23:40.662 forced detection of Kaspersky Endpoint Security 11 - 11.9 for Windows
+11436:5124 10:23:40.662 file found: df44.ini
+11436:5124 10:23:40.666 no detect
+11436:5124 10:23:40.666 forced detection of Kaspersky Endpoint Security 11.10 for Windows
+11436:5124 10:23:40.666 file found: df45.ini
+11436:5124 10:23:40.670 no detect
+11436:5124 10:23:40.670 forced detection of Kaspersky Endpoint Security 11.11 for Windows
+11436:5124 10:23:40.670 file found: df46.ini
+11436:5124 10:23:40.674 no detect
+11436:5124 10:23:40.674 forced detection of Kaspersky Endpoint Security 11.12 for Windows
+11436:5124 10:23:40.674 file found: df47.ini
+11436:5124 10:23:40.678 no detect
+11436:5124 10:23:40.678 forced detection of Kaspersky Endpoint Security 11.13 for Windows
+11436:5124 10:23:40.678 file found: df48.ini
+11436:5124 10:23:40.682 no detect
+11436:5124 10:23:40.682 forced detection of Kaspersky Endpoint Security 12.2 for Windows
+11436:5124 10:23:40.682 file found: df49.ini
+11436:5124 10:23:40.684 no detect
+11436:5124 10:23:40.684 forced detection of Kaspersky Endpoint Security 8 x64
+11436:5124 10:23:40.684 file found: df5.ini
+11436:5124 10:23:40.685 no detect
+11436:5124 10:23:40.685 forced detection of Kaspersky Anti-Ransomware Tool 6.2
+11436:5124 10:23:40.685 file found: df50.ini
+11436:5124 10:23:40.687 no detect
+11436:5124 10:23:40.687 forced detection of Kaspersky Fraud Prevention for Endpoint
+11436:5124 10:23:40.687 file found: df51.ini
+11436:5124 10:23:40.689 no detect
+11436:5124 10:23:40.689 forced detection of Kaspersky Fraud Prevention for Endpoint 2015
+11436:5124 10:23:40.689 file found: df52.ini
+11436:5124 10:23:40.691 no detect
+11436:5124 10:23:40.691 forced detection of Kaspersky Fraud Prevention for Endpoint 2016
+11436:5124 10:23:40.691 file found: df53.ini
+11436:5124 10:23:40.692 no detect
+11436:5124 10:23:40.693 forced detection of Kaspersky Fraud Prevention for Endpoint 2017
+11436:5124 10:23:40.693 file found: df54.ini
+11436:5124 10:23:40.694 no detect
+11436:5124 10:23:40.695 forced detection of Kaspersky Fraud Prevention for Endpoint 2019
+11436:5124 10:23:40.695 file found: df55.ini
+11436:5124 10:23:40.696 no detect
+11436:5124 10:23:40.696 forced detection of Kaspersky Fraud Prevention for Endpoints 2016 MR1
+11436:5124 10:23:40.696 file found: df56.ini
+11436:5124 10:23:40.699 no detect
+11436:5124 10:23:40.699 forced detection of Kaspersky Free\Anti-Virus\Internet Security\Total Security\Kaspersky Security 2019
+11436:5124 10:23:40.699 file found: df57.ini
+11436:5124 10:23:40.702 no detect
+11436:5124 10:23:40.702 forced detection of Kaspersky Free\Anti-Virus\Internet Security\Total Security\Kaspersky Security 2020
+11436:5124 10:23:40.702 file found: df58.ini
+11436:5124 10:23:40.705 no detect
+11436:5124 10:23:40.705 forced detection of Kaspersky Free\Anti-Virus\Internet Security\Total Security\Kaspersky Security 2021
+11436:5124 10:23:40.705 file found: df59.ini
+11436:5124 10:23:40.708 no detect
+11436:5124 10:23:40.708 forced detection of Kaspersky Free\Anti-Virus\Internet Security\Total Security\Kaspersky Security 2021MR1
+11436:5124 10:23:40.709 file found: df6.ini
+11436:5124 10:23:40.709 no detect
+11436:5124 10:23:40.709 forced detection of Kaspersky Anti-Ransomware Tool 6.3
+11436:5124 10:23:40.710 file found: df60.ini
+11436:5124 10:23:40.712 no detect
+11436:5124 10:23:40.713 forced detection of Kaspersky Free\Anti-Virus\Internet Security\Total Security\Kaspersky Security 2021MR2
+11436:5124 10:23:40.713 file found: df61.ini
+11436:5124 10:23:40.716 no detect
+11436:5124 10:23:40.716 forced detection of Kaspersky Free\Anti-Virus\Internet Security\Total Security\Kaspersky Security 2021MR3
+11436:5124 10:23:40.716 file found: df62.ini
+11436:5124 10:23:40.718 no detect
+11436:5124 10:23:40.718 forced detection of Kaspersky Free\Kaspersky Anti-Virus\Internet Security\Kaspersky Total Security 2018
+11436:5124 10:23:40.718 file found: df63.ini
+11436:5124 10:23:40.720 Detecting upgrade code 'A6317151A20E6524DB14F80340A3A183,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.720 upgrade-code='A6317151A20E6524DB14F80340A3A183' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.720 RegOpenKeyEx(00000414H\A6317151A20E6524DB14F80340A3A183) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.720 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.720 no detect
+11436:5124 10:23:40.720 forced detection of Kaspersky Industrial Security 1.0
+11436:5124 10:23:40.720 file found: df64.ini
+11436:5124 10:23:40.722 This OS is not supported
+11436:5124 10:23:40.722 no detect
+11436:5124 10:23:40.723 forced detection of Kaspersky Internet Security 2009 (x64)
+11436:5124 10:23:40.723 file found: df65.ini
+11436:5124 10:23:40.725 This OS is not supported
+11436:5124 10:23:40.725 no detect
+11436:5124 10:23:40.725 forced detection of Kaspersky Internet Security 2010 (x64)
+11436:5124 10:23:40.725 file found: df66.ini
+11436:5124 10:23:40.727 no detect
+11436:5124 10:23:40.727 forced detection of Kaspersky PURE 2.0 / CRYSTAL X64
+11436:5124 10:23:40.728 file found: df67.ini
+11436:5124 10:23:40.731 no detect
+11436:5124 10:23:40.731 forced detection of Kaspersky PURE 3.0 / CRYSTAL
+11436:5124 10:23:40.731 file found: df68.ini
+11436:5124 10:23:40.735 This OS is not supported
+11436:5124 10:23:40.736 no detect
+11436:5124 10:23:40.736 forced detection of Kaspersky PURE/CRYSTAL 9 x64
+11436:5124 10:23:40.736 file found: df69.ini
+11436:5124 10:23:40.737 Detecting upgrade code 'C4C5F8868570986459B06B66D9B75386,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.737 upgrade-code='C4C5F8868570986459B06B66D9B75386' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.737 RegOpenKeyEx(00000414H\C4C5F8868570986459B06B66D9B75386) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.737 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.737 no detect
+11436:5124 10:23:40.737 forced detection of Kaspersky Password Manager
+11436:5124 10:23:40.738 file found: df7.ini
+11436:5124 10:23:40.738 no detect
+11436:5124 10:23:40.738 forced detection of Kaspersky Anti-Ransomware Tool for Business 1.1
+11436:5124 10:23:40.738 file found: df70.ini
+11436:5124 10:23:40.739 This OS is not supported
+11436:5124 10:23:40.739 no detect
+11436:5124 10:23:40.739 forced detection of Kaspersky Password Manager 4.0.0.133 x64
+11436:5124 10:23:40.739 file found: df71.ini
+11436:5124 10:23:40.740 Detecting upgrade code '36C901A98B0374C4BA1F81D4D83648E1,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.740 upgrade-code='36C901A98B0374C4BA1F81D4D83648E1' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.740 RegOpenKeyEx(000003E4H\36C901A98B0374C4BA1F81D4D83648E1) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.740 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.740 no detect
+11436:5124 10:23:40.740 forced detection of Kaspersky Safe Kids
+11436:5124 10:23:40.741 file found: df72.ini
+11436:5124 10:23:40.741 no detect
+11436:5124 10:23:40.742 forced detection of Kaspersky Secure Connection
+11436:5124 10:23:40.742 file found: df73.ini
+11436:5124 10:23:40.742 no detect
+11436:5124 10:23:40.742 forced detection of Kaspersky Secure Connection 2.0
+11436:5124 10:23:40.743 file found: df74.ini
+11436:5124 10:23:40.743 no detect
+11436:5124 10:23:40.743 forced detection of Kaspersky Secure Connection 3.0
+11436:5124 10:23:40.744 file found: df75.ini
+11436:5124 10:23:40.744 no detect
+11436:5124 10:23:40.744 forced detection of Kaspersky Secure Connection 4.0
+11436:5124 10:23:40.744 file found: df76.ini
+11436:5124 10:23:40.745 no detect
+11436:5124 10:23:40.745 forced detection of Kaspersky Secure Connection 5.0
+11436:5124 10:23:40.746 file found: df77.ini
+11436:5124 10:23:40.746 no detect
+11436:5124 10:23:40.746 forced detection of Kaspersky Secure Connection 5.1
+11436:5124 10:23:40.747 file found: df78.ini
+11436:5124 10:23:40.747 no detect
+11436:5124 10:23:40.747 forced detection of Kaspersky Secure Connection 5.13
+11436:5124 10:23:40.748 file found: df79.ini
+11436:5124 10:23:40.749 no detect
+11436:5124 10:23:40.749 forced detection of Kaspersky Secure Connection 5.14
+11436:5124 10:23:40.749 file found: df8.ini
+11436:5124 10:23:40.749 no detect
+11436:5124 10:23:40.750 forced detection of Kaspersky Anti-Ransomware Tool for Business 2.0
+11436:5124 10:23:40.750 file found: df80.ini
+11436:5124 10:23:40.750 no detect
+11436:5124 10:23:40.750 forced detection of Kaspersky Secure Connection 5.2
+11436:5124 10:23:40.751 file found: df81.ini
+11436:5124 10:23:40.751 no detect
+11436:5124 10:23:40.752 forced detection of Kaspersky Secure Connection 5.3
+11436:5124 10:23:40.752 file found: df82.ini
+11436:5124 10:23:40.752 no detect
+11436:5124 10:23:40.753 forced detection of Kaspersky Secure Connection 5.4
+11436:5124 10:23:40.753 file found: df83.ini
+11436:5124 10:23:40.754 no detect
+11436:5124 10:23:40.754 forced detection of Kaspersky Secure Connection 5.5
+11436:5124 10:23:40.754 file found: df84.ini
+11436:5124 10:23:40.755 no detect
+11436:5124 10:23:40.755 forced detection of Kaspersky Secure Connection 5.6
+11436:5124 10:23:40.755 file found: df85.ini
+11436:5124 10:23:40.756 no detect
+11436:5124 10:23:40.756 forced detection of Kaspersky Secure Connection 5.7
+11436:5124 10:23:40.756 file found: df86.ini
+11436:5124 10:23:40.757 no detect
+11436:5124 10:23:40.757 forced detection of Kaspersky Secure Connection 5.8
+11436:5124 10:23:40.757 file found: df87.ini
+11436:5124 10:23:40.758 no detect
+11436:5124 10:23:40.758 forced detection of Kaspersky Secure Connection 5.9
+11436:5124 10:23:40.758 file found: df88.ini
+11436:5124 10:23:40.760 no detect
+11436:5124 10:23:40.760 forced detection of Kaspersky Security Cloud
+11436:5124 10:23:40.761 file found: df89.ini
+11436:5124 10:23:40.761 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.761 RegOpenKeyEx(80000002H\SOFTWARE\KasperskyLab\AntiRansom4) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.761 no detect
+11436:5124 10:23:40.761 forced detection of Kaspersky Security Element
+11436:5124 10:23:40.761 file found: df9.ini
+11436:5124 10:23:40.762 no detect
+11436:5124 10:23:40.762 forced detection of Kaspersky Anti-Ransomware Tool for Business 3.0
+11436:5124 10:23:40.762 file found: df90.ini
+11436:5124 10:23:40.763 Detecting upgrade code 'EC4327A59EB71784E9300F4BA9C7E3A2,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.763 upgrade-code='EC4327A59EB71784E9300F4BA9C7E3A2' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.763 RegOpenKeyEx(00000414H\EC4327A59EB71784E9300F4BA9C7E3A2) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.763 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.763 no detect
+11436:5124 10:23:40.763 forced detection of Kaspersky Security Integration Service for MSP
+11436:5124 10:23:40.763 file found: df91.ini
+11436:5124 10:23:40.764 Detecting upgrade code 'C0D16C9919DE969458D3A48B6E8D97A2,MinVersion=0x00000000,MaxVersion=0xFFFFFFFF'
+11436:5124 10:23:40.764 upgrade-code='C0D16C9919DE969458D3A48B6E8D97A2' MinVersion=true,0 MaxVersion=true,-1
+11436:5124 10:23:40.764 RegOpenKeyEx(00000414H\C0D16C9919DE969458D3A48B6E8D97A2) failed. Error 2: The system cannot find the file specified.
+11436:5124 10:23:40.764 Fail! get upgrade code key error: err 2
+11436:5124 10:23:40.764 no detect
+11436:5124 10:23:40.764 forced detection of Kaspersky Security Integration Tool for MSP
+11436:5124 10:23:40.764 file found: df92.ini
+11436:5124 10:23:40.765 no detect
+11436:5124 10:23:40.765 forced detection of Kaspersky Security Scan
+11436:5124 10:23:40.765 file found: df93.ini
+11436:5124 10:23:40.768 no detect
+11436:5124 10:23:40.768 forced detection of Kaspersky Security for Virtualization 5.0 Light Agent
+11436:5124 10:23:40.768 file found: df94.ini
+11436:5124 10:23:40.771 no detect
+11436:5124 10:23:40.772 forced detection of Kaspersky Security for Virtualization 5.1 Light Agent
+11436:5124 10:23:40.772 file found: df95.ini
+11436:5124 10:23:40.775 no detect
+11436:5124 10:23:40.775 forced detection of Kaspersky Security for Virtualization 5.2 Light Agent
+11436:5124 10:23:40.775 file found: df96.ini
+11436:5124 10:23:40.778 apply_local_context_command: 'local.x64' 'false'
+11436:5124 10:23:40.778 no detect
+11436:5124 10:23:40.778 forced detection of Kaspersky Small Office Security 2 x64
+11436:5124 10:23:40.778 file found: df97.ini
+11436:5124 10:23:40.782 no detect
+11436:5124 10:23:40.782 forced detection of Kaspersky Small Office Security 3
+11436:5124 10:23:40.783 file found: df98.ini
+11436:5124 10:23:40.785 no detect
+11436:5124 10:23:40.785 forced detection of Kaspersky Small Office Security 4
+11436:5124 10:23:40.785 file found: df99.ini
+11436:5124 10:23:40.787 no detect
+11436:5124 10:23:40.787 forced detection of Kaspersky Small Office Security 5
+11436:5124 10:23:40.788 Server malloc
+11436:5124 10:23:40.788 Save detected products succ.
+11436:5124 10:23:40.788 KLeaner deinitialized
+11436:5124 10:23:40.788 Stopping shutdown detector...
+11436:5124 10:23:40.788 Waiting for watch thread stop...
+11436:2fe0 10:23:40.788 Watch thread finished
+11436:5124 10:23:40.789 Watch thread was stopped
+11436:5124 10:23:40.789 Server free
+11436:5124 10:24:08.539 RestoreSystemEnvironment
+11436:5124 10:24:08.539 Set environment from string...
+11436:5124 10:24:08.539 change_current_enviroment start
+11436:43ec 10:24:08.540 Removing ini files...
+11436:6c38 10:24:08.657 Error = 0, return code = 1718
+11436:6c38 10:24:08.657 Cannot register serviceCtrlHandler
+11436:43ec 10:24:08.657 Stopping server...

@@ -1,0 +1,49 @@
+26024:6294 15:29:19.800 KAVRemover tool version 1.0.3666
+26024:6294 15:29:19.815 System language detected: langID=9, sublangID=1
+26024:6294 15:29:19.815 User language detected: langID=9, sublangID=1
+26024:6294 15:29:19.815 Setting UI language: langID=9, sublangID=2
+26024:6294 15:29:19.815 Locale successfully set
+26024:6294 15:29:19.815 dbghelp.dll dumped OK
+26024:6294 15:29:21.237 Binary file dumped
+26024:6294 15:29:21.753 ServiceHelper::WaitForServiceStatus
+26024:6294 15:29:21.753 Still waiting for 4
+26024:6294 15:29:22.768 Service start return code = 1
+26024:6294 15:29:22.768 handle does init
+26024:6294 15:29:22.768 Dumping user environment...
+26024:6294 15:29:22.768 Dumping current environment...
+26024:6294 15:29:22.768 CreateFileA () failed, error 3
+26024:6294 15:29:22.768 Client malloc
+26024:6294 15:29:22.768 Try to set user environment to server...
+26024:6294 15:29:22.768 After call, error = 3, ret code = 0)
+26024:6294 15:29:22.768 Client free
+26024:86c4 15:29:22.784 Searching for installed products...
+26024:86c4 15:29:22.784 Try to call some func on server...
+26024:86c4 15:29:22.784 Client malloc
+26024:86c4 15:29:22.784 After call, error = 0, ret code = 0)
+26024:86c4 15:29:22.784 Client free
+26024:86c4 15:29:22.784 Try to call detection, no-detect=%d, remove-all=0...
+26024:86c4 15:29:23.362 Client malloc
+26024:86c4 15:29:23.362 After call detection, error = 0, ret code = 0)
+26024:86c4 15:29:23.362 Client free
+26024:86c4 15:29:23.362 Processing additional info...
+26024:86c4 15:29:23.362 Post message about detected products
+26024:6294 15:29:32.831 Try to validate user input...
+26024:6294 15:29:32.831 After call, error = 0, ret code = 0)
+26024:2c5c 15:29:32.831 Client malloc
+26024:2c5c 15:29:32.831 Client malloc
+26024:2c5c 15:29:32.831 Client malloc
+26024:2c5c 15:29:32.831 Client malloc
+26024:2c5c 15:29:32.831 Client malloc
+26024:2c5c 15:29:32.831 Try to call removing...
+26024:2c5c 15:34:41.361 After call removing, error = 0, ret code = 0)
+26024:2c5c 15:34:41.361 Client free
+26024:2c5c 15:34:41.361 Client free
+26024:2c5c 15:34:41.361 Client free
+26024:2c5c 15:34:41.361 Client free
+26024:2c5c 15:34:41.361 Remove finished successfully
+26024:6294 15:34:52.602 Try to restore system environment on server...
+26024:6294 15:34:52.602 After call, error = 0, ret code = 0)
+26024:6294 15:34:52.602 Current ServiceState is '4'
+26024:6294 15:34:53.865 ServiceHelper::WaitForServiceStatus
+26024:6294 15:34:53.866 Still waiting for 1
+26024:6294 15:34:54.921 Stopped, try to remove

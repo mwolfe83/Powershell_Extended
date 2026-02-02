@@ -1,0 +1,49 @@
+8840:0844 09:01:53.799 KAVRemover tool version 1.0.3666
+8840:0844 09:01:53.804 System language detected: langID=9, sublangID=1
+8840:0844 09:01:53.804 User language detected: langID=9, sublangID=1
+8840:0844 09:01:53.804 Setting UI language: langID=9, sublangID=2
+8840:0844 09:01:53.804 Locale successfully set
+8840:0844 09:01:53.809 dbghelp.dll dumped OK
+8840:0844 09:01:55.577 Binary file dumped
+8840:0844 09:01:56.132 ServiceHelper::WaitForServiceStatus
+8840:0844 09:01:56.132 Still waiting for 4
+8840:0844 09:01:57.142 Service start return code = 1
+8840:0844 09:01:57.142 handle does init
+8840:0844 09:01:57.143 Dumping user environment...
+8840:0844 09:01:57.143 Dumping current environment...
+8840:0844 09:01:57.143 CreateFileA () failed, error 3
+8840:0844 09:01:57.143 Client malloc
+8840:0844 09:01:57.143 Try to set user environment to server...
+8840:0844 09:01:57.149 After call, error = 3, ret code = 0)
+8840:0844 09:01:57.149 Client free
+8840:03a4 09:01:57.170 Searching for installed products...
+8840:03a4 09:01:57.171 Try to call some func on server...
+8840:03a4 09:01:57.239 Client malloc
+8840:03a4 09:01:57.239 After call, error = 0, ret code = 0)
+8840:03a4 09:01:57.240 Client free
+8840:03a4 09:01:57.240 Try to call detection, no-detect=%d, remove-all=0...
+8840:03a4 09:01:59.522 Client malloc
+8840:03a4 09:01:59.522 After call detection, error = 0, ret code = 0)
+8840:03a4 09:01:59.522 Client free
+8840:03a4 09:01:59.522 Processing additional info...
+8840:03a4 09:01:59.522 Post message about detected products
+8840:0844 09:02:07.692 Try to validate user input...
+8840:0844 09:02:07.692 After call, error = 0, ret code = 0)
+8840:2574 09:02:07.693 Kaspersky Endpoint Security 11 - 11.9 for Windows protected by password, but password was not be set by command line
+8840:2574 09:03:41.604 Client malloc
+8840:2574 09:03:41.604 Client malloc
+8840:2574 09:03:41.605 Client malloc
+8840:2574 09:03:41.605 Client malloc
+8840:2574 09:03:41.605 Client malloc
+8840:2574 09:03:41.605 Try to call removing...
+8840:2574 09:07:05.785 After call removing, error = 0, ret code = 0)
+8840:2574 09:07:05.786 Client free
+8840:2574 09:07:05.786 Client free
+8840:2574 09:07:05.786 Client free
+8840:2574 09:07:05.786 Client free
+8840:2574 09:07:05.786 Remove finished successfully
+8840:0844 09:07:09.374 Try to restore system environment on server...
+8840:0844 09:07:09.374 After call, error = 0, ret code = 0)
+8840:0844 09:07:09.376 Current ServiceState is '4'
+8840:0844 09:07:09.632 ServiceHelper::WaitForServiceStatus
+8840:0844 09:07:09.632 Stopped, try to remove
